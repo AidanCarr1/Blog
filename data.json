@@ -4,6 +4,11 @@
             "date": "December 19, 2023",
             "title": "First Post",
             "content": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!"
+        },
+        "1":{
+            "date": "December 19, 2023",
+            "title": "Second Post",
+            "content": "A second post? on the same day? yea, im testing something, chill."
         }
     },
 
@@ -12,6 +17,16 @@
             "caption": "A bunch of bananas",
             "postID": "0",
             "imgURL": "bananas.jpg"
+        },
+        "1":{
+            "caption": "A hike on the Hudson",
+            "postID": "1",
+            "imgURL": "hudsonFence.jpg"
+        },
+        "2":{
+            "caption": "Chief Wiggum",
+            "postID": "1",
+            "imgURL": "wiggum.jpg"
         }
     }
 }
