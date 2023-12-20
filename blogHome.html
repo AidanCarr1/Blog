@@ -8,24 +8,8 @@
 
     <body onload="fileList();">
 
-        <div id="navigation">
-            <a class="navHeader" href="">Courses</a>
-            <a class="navHeader" href="">Books</a>
-            <a class="navHeader" href="">My Library</a>
-            <div class="vl"></div>
-            <a class="navHeader" href="">Help</a>
-        </div>
-        <br style="clear:left;">
 
-        <nav class="crumbs" id="bread">
-            <ol>
-                <li class="crumb"><a href="FoxBooksHome.html">Home</a></li>
-                <li class="crumb">Courses</li>
-            </ol>
-        </nav>
-
-        <h1 style="margin-left: 20px; font-size: 40px; margin-bottom: 0px;" id="siteID">Courses</h1>
-        <p style="margin-left: 20px; font-size: 25px; margin-top: 0px;">Select your course</p>
+        <h1 style="margin-left: 20px; font-size: 40px; margin-bottom: 0px;" id="siteID">Posts</h1>
         <div id="feed">
             <p>List of blog posts should appear here...</p>
         </div>
@@ -57,7 +41,7 @@
                     thisContent = data["posts"][thisPost].content;
                     
                     //create div
-                    htmlString += "<div class='postBox' onclick='openPage("+'"'+i+'"'+")'>";
+                    htmlString += "<div class='postBox' onclick='openPage("+'"'+thisPost+'"'+")'>";
                 
                     //title
                     htmlString += "<h2>" + thisTitle + "</h2>";
