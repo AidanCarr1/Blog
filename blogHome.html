@@ -26,8 +26,8 @@
 
         <h1 style="margin-left: 20px; font-size: 40px; margin-bottom: 0px;" id="siteID">Courses</h1>
         <p style="margin-left: 20px; font-size: 25px; margin-top: 0px;">Select your course</p>
-        <div id="catalogue">
-            <p>List of courses should appear here...</p>
+        <div id="feed">
+            <p>List of blog posts should appear here...</p>
         </div>
         <br>
     
@@ -45,37 +45,41 @@
             htmlString = "";
 
             (async () => {
-                const response = await fetch("https://aidancarr1.github.io/SD330/FoxBooks.json");
+                const response = await fetch("https://aidancarr1.github.io/Blog/FoxBooks.json");
                 const data = await response.json();
-                let courses = Object.keys(data['courses']);
-                for(const i in courses){
-                    thisCourse = courses[i];
-                    thisTitle = data["courses"][thisCourse].title;
-                    thisNumber = data["courses"][thisCourse].number;
-                    thisSemester = data["courses"][thisCourse].semester;
-                    thisProfessor = data["courses"][thisCourse].professor;
+                let posts = Object.keys(data['posts']);
+                for(const i in posts){
+                    
+                    //json data
+                    thisPost = posts[i];
+                    thisDate = data["posts"][thisPost].date;
+                    thisTitle = data["posts"][thisPost].title;
+                    thisContent = data["posts"][thisPost].content;
+                    
                     //create div
-                    htmlString += "<div class='courseBox' onclick='openPage("+'"'+thisNumber+'"'+")'> <h2>" + thisTitle + "</h2>";
-                    //list extra details    
-                    htmlString += "<ul class='descRow'><li class='descList'>" + thisNumber + "</li>";
-                    htmlString += "<li class='descList'>" + thisProfessor + "</li>";
-                    htmlString += "<li class='descList'>" + thisSemester + "</li></ul></div>";
+                    htmlString += "<div class='postBox' onclick='openPage("+'"'+i+'"'+")'>";
+                
+                    //title
+                    htmlString += "<h2>" + thisTitle + "</h2>";
+                    
+                    //date 
+                    htmlString += "<h3>" + thisDate +"</h3></div>";
 
                 }
-                document.getElementById('catalogue').innerHTML = htmlString;
+                document.getElementById('feed').innerHTML = htmlString;
             })()
             
         }
         
         function openPage(param) {
-            var url = 'FoxBooksCoursePage.html?course=' + encodeURIComponent(param);
+            var url = 'blogPost.html?postID=' + encodeURIComponent(param);
             window.open(url, '_self');
         }
         
         
         
         function goHome(){
-            open("FoxBooksHome.html","_self");
+            open("blogHome.html","_self");
         }
     </script>
 
