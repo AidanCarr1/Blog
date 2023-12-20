@@ -21,7 +21,8 @@
         "1":{
             "caption": "A hike on the Hudson",
             "postID": "1",
-            "imgURL": "hudsonFence.jpg"
+            "imgURL": "hudsonFence.JPG", 
+            "comment": "JPG is upper case in git hub for some reason and it makes a differnce"
         },
         "2":{
             "caption": "Chief Wiggum",
