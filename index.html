@@ -43,36 +43,34 @@
                     thisTitle = data["posts"][thisPost].title;
                     thisContent = data["posts"][thisPost].content;
                     
-                    alert(thisTitle);
                     //create div
                     //htmlString += "<div class='postBox' onclick='openPage("+'"'+thisPost+'"'+")'>";
                     htmlString += "<div>";
-                    //title
-                    htmlString += "<h2>" + thisTitle + "</h2>";
                     
-                    //date 
+                    //title and date
+                    htmlString += "<h2>" + thisTitle + "</h2>";
                     htmlString += "<h3>" + thisDate +"</h3>";
                     
                     //content
                     htmlString += "<p>" + thisContent + "</p>";
                     
-                    //images
+                    //check all images
                     for(const j in images){
 
-                        thisImage = images[i];
-
+                        thisImage = images[j];
                         thisImagePostID = data["images"][thisImage].postID;
 
+                        //if this image is related to this post...
                         if (thisImagePostID == thisPost){
-                            thisImgURL = data["images"][thisImage].imageURL;
+                            thisImgURL = data["images"][thisImage].imgURL;
+                            alert(thisImgURL);
                             thisCaption = data["images"][thisImage].caption;
 
-
-                            htmlString += "<p> <img src='images/" + thisImgURL + "' alt= '" + thisCaption + "' width='500' > </p>";
+                            //display the image
+                            htmlString += "<p> <img src= 'images/" + thisImgURL + "' alt= '" + thisCaption + "' width='500' > </p>";
                         }
                     }
-                    htmlString +=
-                    "</div>";
+                    htmlString += "</div>";
 
                 }
                 document.getElementById('feed').innerHTML = htmlString;
