@@ -19,7 +19,7 @@
 
     <footer>
         <hr>
-        <small> <p>&copy; Aidan Carr December 19, 2023</p> </small>
+        <small> <p>&copy; Aidan Carr December 28, 2023</p> </small>
     </footer>
 
 
@@ -31,8 +31,10 @@
             (async () => {
 
                 //get data from json file
+                //must read from website (annoying)
                 const response = await fetch("https://aidancarr1.github.io/Blog/data.json");
                 const data = await response.json();
+                
                 let posts = Object.keys(data['posts']);
                 let images = Object.keys(data['images']);
 
@@ -47,14 +49,14 @@
                     
                     //create div
                     //htmlString += "<div class='postBox' onclick='openPage("+'"'+thisPost+'"'+")'>";
-                    htmlString += "<div>";
+                    htmlString += "<div class='postBox'>";
                     
                     //title and date
-                    htmlString += "<h2>" + thisTitle + "</h2>";
-                    htmlString += "<h3>" + thisDate +"</h3>";
+                    htmlString += "<h2 class='title'>" + thisTitle + "</h2>";
+                    htmlString += "<h3 class='date'>" + thisDate +"</h3>";
                     
                     //content
-                    htmlString += "<p>" + thisContent + "</p>";
+                    htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
                     
                     //check all images
                     for(const j in images){
@@ -68,7 +70,16 @@
                             thisCaption = data["images"][thisImage].caption;
 
                             //display the image
-                            htmlString += "<p> <img src= 'images/" + thisImgURL + "' alt= '" + thisCaption + "' width='500' > </p>";
+                            htmlString += "<div class='imgBlob'> <img src= 'images/" + thisImgURL + "' alt= '" + thisCaption + "' width='500' >";
+
+                            //write caption
+                            htmlString += "<p class='caption'>" + thisCaption + "</p></div>";
+                        
+                            //create Modal
+                            htmlString += "<div class='modal'>";
+                            htmlString += "<span class='close'>&times;</span>";
+                            htmlString += "<img class='modal-content'>";
+                            htmlString += "<div id='caption'></div></div>";
                         }
                     }
                     htmlString += "</div>";
