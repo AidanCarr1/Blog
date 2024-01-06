@@ -47,24 +47,42 @@
                     thisPost = posts[i];
                     thisDate = data["posts"][thisPost].date;
                     thisTitle = data["posts"][thisPost].title;
-                    thisEntry = data["posts"][thisPost].entry;
                     //thisContent = data["posts"][thisPost].content;
                     
-                    //create div
+                    //create postBox div
                     //htmlString += "<div class='postBox' onclick='openPage("+'"'+thisPost+'"'+")'>";
                     htmlString += "<div class='postBox'>";
                     
                     //title and date
                     htmlString += "<h2 class='title'>" + thisTitle + "</h2>";
                     htmlString += "<h3 class='date'>" + thisDate +"</h3>";
+
+                    let thisEntry = Object.keys(data["posts"][thisPost]['entry']);
                     
                     //check all contents and images
-                    for(const stuff in thisPost){
-                        htmlString += "<p>" + stuff + "</p>";
+                    for(const j in thisEntry){
+                        
+                        thisThing = thisEntry[j];
+                        thisType = thisThing.substring(0,2);
+                        //thisContent = data["posts"][thisPost][thisEntry][thisThing];
+                        //alert(thisThing);
+                        
+                        //if it is content, put in a <p>
+                        if(thisType === "co"){
+                            htmlString += "<p>p</p>";
+                            //htmlString += "<p>" + thisContent + "</p>";
+                        }
+
+                        //if it is an image
+                        else if(thisType === "im"){
+                            htmlString += "<p>img</p>";
+                            //htmlString += "<p>" + thisContent + "</p>";
+                        }
+                        
                     }
                     //htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
                     
-                    //check all images
+                    /*check all images
                     for(const j in entry){
 
                         thisImage = images[j];
@@ -83,6 +101,7 @@
                         
                         }
                     }
+                    */
                     htmlString += "</div>";
                 }
 
