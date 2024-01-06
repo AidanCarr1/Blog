@@ -6,12 +6,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body onload="fileList();">
+    <!-- <body onload="loadPosts();" -->
+    <!-- <body onload="loadTestPost();" -->
+    <body onload="loadTestPost();">
 
 
         <h1 id="siteID">Posts</h1>
         <div id="feed">
-            <p>List of blog posts should appear here pleaseeee...</p>
+            <p>Blog posts should appear here.</p>
         </div>
         <br>
     
@@ -25,7 +27,7 @@
 
     <script>
                 
-        function fileList(){
+        function loadPosts(){
             htmlString = "";
 
             (async () => {
@@ -84,6 +86,30 @@
                 document.getElementById('feed').innerHTML = htmlString;
             })()
             
+        }
+
+
+        function loadTestPost(){
+            
+            /* Test Blog Post info */
+            var thisTitle = "Test Post";
+            var thisDate = "January 6, 2023";
+            var thisContent = "<p>Hi. This is what the post will like like when I have put it in the JSON file. <img src='/images/wiggum.png'></p>";
+            htmlString = "";
+
+            //create div
+            //htmlString += "<div class='postBox' onclick='openPage("+'"'+thisPost+'"'+")'>";
+            htmlString += "<div class='postBox'>";
+                    
+            //title and date
+            htmlString += "<h2 class='title'>" + thisTitle + "</h2>";
+            htmlString += "<h3 class='date'>" + thisDate +"</h3>";
+                    
+            //content
+            htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
+        
+            //put all posts into the feed
+            document.getElementById('feed').innerHTML = htmlString;
         }
         
         function openPage(param) {

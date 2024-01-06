@@ -1,0 +1,56 @@
+{
+    "posts": {
+
+        "0":{
+            "title": "My First Post",
+            "date": "December 19, 2023",
+
+            "content": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
+            "image1": "banana"
+
+        },
+        "1":{
+            "title": "Second Post",
+            "date": "December 19, 2023",
+
+            "content": "A second post? on the same day? yea, im testing something, chill.",
+            "image1": "hudson",
+            "image2": "wiggum"
+
+        },
+        "2":{
+            "title": "Test First Post",
+            "date": "December 19, 2023",
+
+            "content1":"Hello World!",
+            "content2": "This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
+            "image1": "thepark",
+            "content3": "And here is another test paragraph.",
+            "image2": "heart"
+        }
+    },
+
+    "images":{
+        "banana":{
+            "caption": "A bunch of bananas",
+            "imgURL": "bananas.jpg"
+        },
+        "hudson":{
+            "caption": "A hike on the Hudson",
+            "imgURL": "hudsonFence.JPG", 
+            "comment": "JPG is upper case in git hub for some reason and it makes a differnce"
+        },
+        "wiggum":{
+            "caption": "Chief Wiggum",
+            "imgURL": "wiggum.png"
+        },
+        "thepark":{
+            "caption": "Regular Show park",
+            "imgURL": "regularshowpark.png" 
+        },
+        "heart":{
+            "caption": "Heart",
+            "imgURL": "heart.png" 
+        }
+    }
+}

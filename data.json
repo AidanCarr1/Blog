@@ -1,13 +1,16 @@
 {
     "posts": {
         "0":{
-            "date": "December 19, 2023",
             "title": "My First Post",
-            "content": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!"
+            "date": "December 19, 2023",
+
+            "content": 
+            "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!"
         },
         "1":{
-            "date": "December 19, 2023",
             "title": "Second Post",
+            "date": "December 19, 2023",
+
             "content": "A second post? on the same day? yea, im testing something, chill."
         }
     },
