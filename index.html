@@ -8,7 +8,7 @@
 
     <!-- <body onload="loadPosts();" -->
     <!-- <body onload="loadTestPost();" -->
-    <body onload="loadTestPost();">
+    <body onload="loadPosts();">
 
 
         <h1 id="siteID">Posts</h1>
@@ -34,7 +34,7 @@
 
                 //get data from json file
                 //must read from website (annoying)
-                const response = await fetch("https://aidancarr1.github.io/Blog/data.json");
+                const response = await fetch("https://aidancarr1.github.io/Blog/dataNEW.json");
                 const data = await response.json();
                 
                 let posts = Object.keys(data['posts']);
@@ -47,7 +47,8 @@
                     thisPost = posts[i];
                     thisDate = data["posts"][thisPost].date;
                     thisTitle = data["posts"][thisPost].title;
-                    thisContent = data["posts"][thisPost].content;
+                    thisEntry = data["posts"][thisPost].entry;
+                    //thisContent = data["posts"][thisPost].content;
                     
                     //create div
                     //htmlString += "<div class='postBox' onclick='openPage("+'"'+thisPost+'"'+")'>";
@@ -57,11 +58,14 @@
                     htmlString += "<h2 class='title'>" + thisTitle + "</h2>";
                     htmlString += "<h3 class='date'>" + thisDate +"</h3>";
                     
-                    //content
-                    htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
+                    //check all contents and images
+                    for(const stuff in thisPost){
+                        htmlString += "<p>" + stuff + "</p>";
+                    }
+                    //htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
                     
                     //check all images
-                    for(const j in images){
+                    for(const j in entry){
 
                         thisImage = images[j];
                         thisImagePostID = data["images"][thisImage].postID;

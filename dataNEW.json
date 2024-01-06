@@ -5,28 +5,34 @@
             "title": "My First Post",
             "date": "December 19, 2023",
 
-            "content": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
-            "image1": "banana"
+            "entry": {
+                "content": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
+                "image1": "banana"
+            }
 
         },
         "1":{
             "title": "Second Post",
             "date": "December 19, 2023",
 
-            "content": "A second post? on the same day? yea, im testing something, chill.",
-            "image1": "hudson",
-            "image2": "wiggum"
+            "entry": {
+                "content": "A second post? on the same day? yea, im testing something, chill.",
+                "image1": "hudson",
+                "image2": "wiggum"
+            }
 
         },
         "2":{
             "title": "Test First Post",
             "date": "December 19, 2023",
 
-            "content1":"Hello World!",
-            "content2": "This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
-            "image1": "thepark",
-            "content3": "And here is another test paragraph.",
-            "image2": "heart"
+            "entry": {
+                "content1":"Hello World!",
+                "content2": "This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
+                "image1": "thepark",
+                "content3": "And here is another test paragraph.",
+                "image2": "heart"
+            }
         }
     },
 
