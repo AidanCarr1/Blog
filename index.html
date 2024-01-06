@@ -57,23 +57,25 @@
                     htmlString += "<h2 class='title'>" + thisTitle + "</h2>";
                     htmlString += "<h3 class='date'>" + thisDate +"</h3>";
 
-                    let thisEntry = Object.keys(data["posts"][thisPost]['entry']);
+                    let thisContent = Object.keys(data["posts"][thisPost]["content"]);
                     
                     //check all contents and images
                     for(const j in thisEntry){
                         
                         thisThing = thisEntry[j];
-                        thisType = thisThing.substring(0,2);
-                        //thisContent = data["posts"][thisPost][thisEntry][thisThing];
-                        //alert(thisThing);
+                        thisContent = data["posts"][thisPost]["entry"].thisThing;
+                        //alert(thisContent);
                         
-                        //if it is content, put in a <p>
+                        //determine type
+                        thisType = thisThing.substring(0,2);
+
+                        //if type is content, put in a <p>
                         if(thisType === "co"){
-                            htmlString += "<p>p</p>";
-                            //htmlString += "<p>" + thisContent + "</p>";
+                            htmlString += "<p>p</p>"; //test line
+                            htmlString += "<p>" + thisContent + "</p>";
                         }
 
-                        //if it is an image
+                        //if type is an image
                         else if(thisType === "im"){
                             htmlString += "<p>img</p>";
                             //htmlString += "<p>" + thisContent + "</p>";
