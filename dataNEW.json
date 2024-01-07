@@ -28,9 +28,9 @@
 
             "content": {
                 "text1":"Hello World!",
-                "text2": "This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
+                "text2": "Yet another test post. Testing out putting images and texts in the blog post at the same time!",
                 "image1": "thepark",
-                "text3": "And here is another test paragraph.",
+                "text3": "And here is another test paragraph. Let's see another image:",
                 "image2": "heart"
             }
         }

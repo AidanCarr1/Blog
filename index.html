@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Aidan's Blog</title>
+        <title>Aidan's Ireland Blog</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -11,7 +11,12 @@
     <body onload="loadPosts();">
 
 
-        <h1 id="siteID">Posts</h1>
+        <h1 id="siteID">Aidan's Ireland Blog</h1>
+        
+        <div id="hotbar">
+            <input type=button id='setFont' onclick="setFontSize()" value="Click for LARGE text">
+        </div>
+
         <div id="feed">
             <p>Blog posts should appear here.</p>
         </div>
@@ -29,6 +34,8 @@
                 
         function loadPosts(){
             htmlString = "";
+
+            
 
             (async () => {
 
@@ -90,36 +97,136 @@
                         }
                         
                     }
-                    htmlString += "</div>";
-                    
-                    /*check all images
-                    for(const j in entry){
-
-                        thisImage = images[j];
-                        thisImagePostID = data["images"][thisImage].postID;
-
-                        //if this image is related to this post...
-                        if (thisImagePostID == thisPost){
-                            thisImgURL = data["images"][thisImage].imgURL;
-                            thisCaption = data["images"][thisImage].caption;
-
-                            //display the image
-                            htmlString += "<div class='imgBlob'> <img src= 'images/" + thisImgURL + "' alt= '" + thisCaption + "' width='500' >";
-
-                            //write caption
-                            htmlString += "<p class='caption'>" + thisCaption + "</p></div>";
-                        
-                        }
-                    }
-                    */
-                    htmlString += "</div>";
+                    //close postBox and content
+                    htmlString += "</div></div>";                   
                 }
 
                 //put all posts into the feed
                 document.getElementById('feed').innerHTML = htmlString;
-            })()
-            
+            })()           
         }
+
+
+        //ACCESSEBILITY: larger text size and margins
+        function setFontSize() {
+
+            button = document.getElementById("setFont")
+
+            //set font to LARGE
+            if (button.value === "Click for LARGE text"){
+
+                //site ID
+                element = document.getElementById('siteID');
+                element.style.fontSize = '80px';
+                element.style.marginTop = '35px';
+                element.style.marginBottom = '35px';
+                element.style.lineHeight = '120px';
+
+                //postBoxes
+                elements = document.getElementsByClassName('postBox');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];                
+                    element.style.paddingTop = '15px';
+                    element.style.paddingLeft = '25px';
+                    element.style.paddingRight = '25px';                
+                    element.style.paddingBottom = '15px';               
+                }
+
+                //titles
+                elements = document.getElementsByClassName('title');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    element.style.fontSize = '75px';
+
+                    element.style.marginTop = '15px';
+                    element.style.marginBottom = '15px';
+                    element.style.lineHeight = '50px';
+                }
+
+                //dates
+                elements = document.getElementsByClassName('date');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '45px';
+                }
+
+                //content
+                elements = document.getElementsByClassName('content');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '35px';
+                }
+
+                //caption
+                elements = document.getElementsByClassName('caption');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '30px';
+                }
+
+                //change button to setSmallFont
+                button.value = "Click for SMALL text";
+            }
+
+            //set font to SMALL
+            else if (button.value === "Click for SMALL text"){
+        
+                //site ID
+                element = document.getElementById('siteID');
+                element.style.fontSize = '';
+                element.style.marginTop = '';
+                element.style.marginBottom = '';
+                element.style.lineHeight = '';
+
+                //postBoxes
+                elements = document.getElementsByClassName('postBox');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];                
+                    element.style.paddingTop = '';
+                    element.style.paddingLeft = '';
+                    element.style.paddingRight = '';                
+                    element.style.paddingBottom = '';               
+                }
+
+                //titles
+                elements = document.getElementsByClassName('title');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    element.style.fontSize = '';
+
+                    element.style.marginTop = '';
+                    element.style.marginBottom = '';
+                    element.style.lineHeight = '';
+                }
+
+                //dates
+                elements = document.getElementsByClassName('date');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '';
+                }
+
+                //content
+                elements = document.getElementsByClassName('content');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '';
+                }
+
+                //caption
+                elements = document.getElementsByClassName('caption');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '';
+                }
+
+                //change button to setLargeFont
+                button.value = "Click for LARGE text";
+            }
+        }
+
+
+
 
 
         function loadTestPost(){
@@ -145,6 +252,12 @@
             document.getElementById('feed').innerHTML = htmlString;
         }
         
+
+
+
+
+
+
         function openPage(param) {
             var url = 'blogPost.html?postID=' + encodeURIComponent(param);
             window.open(url, '_self');

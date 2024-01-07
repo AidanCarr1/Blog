@@ -1,8 +1,40 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    /*width*/
+    width: 90%;
+    max-width: 1500px;
+    min-width: 600px;
+
+    /*center*/
+    margin:auto;
+
     /* green background */
     -background-color: green;
+}
+
+#siteID{
+    background-color: rgb(99, 137, 99);
+
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    line-height: 100px;
+
+    text-align: center;
+    font-size: 70px;
+}
+
+#hotbar{
+    -background-color: lightskyblue;
+
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+#setFont{
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .postBox{
@@ -13,14 +45,6 @@ body{
     border-color: lightgray;
     border-style: solid;
     border-width: 1px;
-
-    /*width*/
-    width: 85%;
-    max-width: 1500px;
-    min-width: 600px;
-
-    /*center*/
-    margin:auto;
 
     /*space within the post */
     padding-top: 10px;
@@ -52,7 +76,7 @@ body{
 /* My journal entry writing */
 .content{
     -background-color: antiquewhite;
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 0px; 
     margin-bottom: 0px; 
 }
@@ -71,7 +95,7 @@ body{
     }
     .caption{
         -background-color: brown;
-        font-size: 15px;
+        font-size: 17px;
         text-align: center;
 
         /*make caption close to img above */
