@@ -21,7 +21,7 @@
 
     <footer>
         <hr>
-        <small> <p>&copy; Aidan Carr December 28, 2023</p> </small>
+        <small> <p>&copy; Aidan Carr January 6, 2023</p> </small>
     </footer>
 
 
@@ -37,8 +37,8 @@
                 const response = await fetch("https://aidancarr1.github.io/Blog/dataNEW.json");
                 const data = await response.json();
                 
-                let posts = Object.keys(data['posts']);
-                let images = Object.keys(data['images']);
+                let posts = Object.keys(data["posts"]);
+                let images = Object.keys(data["images"]);
 
                 //go through every post
                 for(const i in posts){
@@ -57,32 +57,38 @@
                     htmlString += "<h2 class='title'>" + thisTitle + "</h2>";
                     htmlString += "<h3 class='date'>" + thisDate +"</h3>";
 
-                    let thisContent = Object.keys(data["posts"][thisPost]["content"]);
+                    //begin content
+                    htmlString += "<div class='content'>";
+
+                    let contents = Object.keys(data["posts"][thisPost]["content"]);
                     
                     //check all contents and images
-                    for(const j in thisEntry){
+                    for(const j in contents){
                         
-                        thisThing = thisEntry[j];
-                        thisContent = data["posts"][thisPost]["entry"].thisThing;
-                        //alert(thisContent);
+                        let thisThing = contents[j];
+                        let thisMeat = data["posts"][thisPost]["content"][thisThing];
+
+                        //alert(thisThing);
                         
                         //determine type
                         thisType = thisThing.substring(0,2);
 
                         //if type is content, put in a <p>
-                        if(thisType === "co"){
-                            htmlString += "<p>p</p>"; //test line
-                            htmlString += "<p>" + thisContent + "</p>";
+                        if(thisType === "te"){
+
+                            //htmlString += "<p>p</p>"; //test line
+                            htmlString += "<p>" + thisMeat + "</p>";
+
                         }
 
                         //if type is an image
                         else if(thisType === "im"){
                             htmlString += "<p>img</p>";
-                            //htmlString += "<p>" + thisContent + "</p>";
+                            //htmlString += "<p>" + thisMeat + "</p>";
                         }
                         
                     }
-                    //htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
+                    htmlString += "</div>";
                     
                     /*check all images
                     for(const j in entry){
