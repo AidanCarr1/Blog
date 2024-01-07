@@ -22,6 +22,8 @@ body{
 
     text-align: center;
     font-size: 70px;
+
+    transition: .8s;
 }
 
 #hotbar{
@@ -54,6 +56,8 @@ body{
 
     /*space between posts */
     margin-bottom: 40px;
+
+    transition: .4s;
 }
 
 /*Title of journal entry */
@@ -64,6 +68,7 @@ body{
         margin-bottom: 0px;
         line-height: 50px;
 
+        transition: 1s;
     }
 
     .date{
@@ -71,6 +76,8 @@ body{
         font-size: 25px;
         margin-top: 0px; 
         margin-bottom: 0px;
+
+        transition: 1.3s;
     }
 
 /* My journal entry writing */
@@ -79,6 +86,8 @@ body{
     font-size: 18px;
     margin-top: 0px; 
     margin-bottom: 0px; 
+
+    transition: 1s;
 }
 
 /* Image in journal entry */
@@ -92,6 +101,10 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
+
+        width: 600px;
+
+        transition: 2s;
     }
     .caption{
         -background-color: brown;
@@ -107,7 +120,7 @@ body{
 /* Style the Image Used to Trigger the Modal */
 img{
     cursor: pointer;
-    transition: 0.3s;
+    -transition: 1s;
 }
 img:hover {opacity: 0.8;}
   
