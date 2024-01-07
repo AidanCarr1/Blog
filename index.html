@@ -67,24 +67,26 @@
                         
                         let thisThing = contents[j];
                         let thisMeat = data["posts"][thisPost]["content"][thisThing];
-
-                        //alert(thisThing);
                         
                         //determine type
                         thisType = thisThing.substring(0,2);
 
                         //if type is content, put in a <p>
                         if(thisType === "te"){
-
-                            //htmlString += "<p>p</p>"; //test line
                             htmlString += "<p>" + thisMeat + "</p>";
-
                         }
 
                         //if type is an image
                         else if(thisType === "im"){
-                            htmlString += "<p>img</p>";
-                            //htmlString += "<p>" + thisMeat + "</p>";
+
+                            thisImgURL = thisDate = data["images"][thisMeat].imgURL;
+                            thisCaption = thisDate = data["images"][thisMeat].caption;
+
+                            //display the image
+                            htmlString += "<div class='imgBlob'> <img src= 'images/" + thisImgURL + "' alt= '" + thisCaption + "' width='500' >";
+
+                            //write caption
+                            htmlString += "<p class='caption'>" + thisCaption + "</p></div>";
                         }
                         
                     }
