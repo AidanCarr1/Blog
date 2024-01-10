@@ -1,0 +1,26 @@
+{
+    "posts": {
+
+        "0":{
+            "title": "Off to Ireland!",
+            "date": "January 7, 2024",
+
+            "content": {
+                "text1": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
+                "image1": "nandosSelfie"
+            }
+        }
+    },
+
+    "images":{
+        "nandosSelfie":{
+            "caption": "A bunch of bananas",
+            "imgURL": "bananas.jpg"
+        },
+        "hudson":{
+            "caption": "A hike on the Hudson",
+            "imgURL": "hudsonFence.JPG", 
+            "comment": "JPG is upper case in git hub for some reason and it makes a differnce"
+        }
+    }
+}
