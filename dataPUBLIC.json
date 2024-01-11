@@ -1,62 +1,49 @@
 {
     "posts": {
-
         "0":{
-            "title": "My First Post",
-            "date": "December 19, 2023",
+            "title": "Our night at JFK",
+            "date": "January 7, 2024",
 
             "content": {
-                "text1": "Hello World! This is my first post on this test blog. I am here to test out my HTML and JSON reading with this site!",
-                "image1": "banana"
+                "text1": "We arrived at JFK 4 hours early at 5pm!",
+                "image1": "jfkGroup",
+                "text2": "I got us some boneless wings from Buffalo Wild Wings. After a 45 minutes wait I brought back 25 wings, I accidentally ordered buffalo instead of mild.",
+                "text3": "I eat mushroom pasta on pasta plane, it was pretty nasty."
             }
-
         },
         "1":{
-            "title": "Second Post",
-            "date": "December 19, 2023",
+            "title": "Arriving in Dublin",
+            "date": "January 8, 2024",
 
             "content": {
-                "text1": "A second post? on the same day? yea, im testing something, chill.",
-                "image1": "hudson",
-                "image2": "wiggum"
-            }
-
-        },
-        "2":{
-            "title": "Testing IMG weaving-in",
-            "date": "January 6, 2023",
-
-            "content": {
-                "text1":"Hello World!",
-                "text2": "Yet another test post. Testing out putting images and texts in the blog post at the same time!",
-                "image1": "thepark",
-                "text3": "And here is another test paragraph. Let's see another image:",
-                "image2": "heart"
+                "text1": "We landed 9am local time, exhausted. I picked up a random taxi on the street and he drove us to campus. We got our keycards and checked out our rooms after a confusing discussion on where to go to find the exact room numbers.",
+                "image1": "myNewRoom",
+                "text2": "After settling in we went shopping at a nearby Pepco to pick up towels, soaps. We ate at Nando's next door.",
+                "image2": "nandosGroup"
             }
         }
     },
 
     "images":{
-        "banana":{
-            "caption": "A bunch of bananas",
-            "imgURL": "bananas.jpg"
+        "jfkGroup":{
+            "caption": "Christina, Hunter, Aidan, Ashley at JFK airport",
+            "imgURL": "jfkgroup.HEIC"
         },
-        "hudson":{
-            "caption": "A hike on the Hudson",
-            "imgURL": "hudsonFence.JPG", 
-            "comment": "JPG is upper case in git hub for some reason and it makes a differnce"
+        "myNewRoom":{
+            "caption": "My home for the next four months",
+            "imgURL": "mynewroom.HEIC"
         },
-        "wiggum":{
-            "caption": "Chief Wiggum",
-            "imgURL": "wiggum.png"
+        "nandosGroup":{
+            "caption": "Me and the gang at Nando's",
+            "imgURL": "nandosgroup.HEIC"
         },
-        "thepark":{
-            "caption": "Regular Show park",
-            "imgURL": "regularshowpark.png" 
+        "myFirstGuinesss":{
+            "caption": "My first Guiness in Dublin!",
+            "imgURL": "myfirstguiness.HEIC"
         },
-        "heart":{
-            "caption": "Heart",
-            "imgURL": "heart.png" 
+        "hunterBangers":{
+            "caption": "Hunter enjoying his bangers and chips",
+            "imgURL": "hunterbangers.JPG"
         }
     }
 }
