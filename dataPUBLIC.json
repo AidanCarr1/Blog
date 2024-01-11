@@ -23,7 +23,14 @@
             }
         },
         "2":{
-            
+            "title": "Day 2 in Dublin",
+            "date": "January 9, 2024",
+
+            "content": {
+                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guiness!",
+                "image1": "myFirstGuiness",
+                "image2": "hunterBangers"
+            }
         }
     },
 
