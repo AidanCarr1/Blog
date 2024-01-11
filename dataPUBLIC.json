@@ -8,8 +8,8 @@
             "content": {
                 "text1": "We arrived at JFK 4 hours early at 5pm!",
                 "image1": "jfkGroup",
-                "text2": "I got us some boneless wings from Buffalo Wild Wings. After a 45 minutes wait I brought back 25 wings, I accidentally ordered buffalo instead of mild.",
-                "text3": "I eat mushroom pasta on pasta plane, it was pretty nasty."
+                "text2": "I got us some boneless wings from Buffalo Wild Wings. After a 45 minute wait, I brought back 25 wings, I accidentally ordered buffalo instead of mild. They were much spicier than I wanted.",
+                "text3": "I ate mushroom pasta on pasta plane, it was pretty nasty."
             }
         },
 
@@ -18,9 +18,9 @@
             "date": "January 8, 2024",
 
             "content": {
-                "text1": "We landed 9am local time, exhausted. I picked up a random taxi on the street and he drove us to campus. We got our keycards and checked out our rooms after a confusing discussion on where to go to find the exact room numbers.",
+                "text1": "We landed 9am local time, exhausted. I picked up a random taxi on the street for us and he drove us to the Dublin City University, Glasnevin campus. We got our keycards and checked out our rooms. After a confusing discussion on where to go to find the exact room numbers, I went to still the wrong building. They wrote down the wrong house number for me so I got the help of a friendly cleaning lady.",
                 "image1": "myNewRoom",
-                "text2": "After settling in we went shopping at a nearby Pepco to pick up towels, soaps. We ate at Nando's next door.",
+                "text2": "After settling in we went shopping at a nearby Pepco to pick up towels, soaps. We ate at the Nando's next door.",
                 "image2": "nandosGroup"
             }
         },
@@ -30,9 +30,20 @@
             "date": "January 9, 2024",
 
             "content": {
-                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guiness!",
-                "image1": "myFirstGuiness",
+                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!",
+                "image1": "myFirstGuinness",
                 "image2": "hunterBangers"
+            }
+        },
+
+        "3":{
+            "title": "A Proper Irish meal",
+            "date": "January 10, 2024",
+
+            "content": {
+                "text1": "For dinner today I ate a personal pizza with bacon and a Coke. For dessert I grabbed a pack of Curly Wurly Squirlies. What a fun name for some chocolate covered pieces of caramel.",
+                "image1": "curlyWurly",
+                "text2": "After dinner, we played cards for a few hours in the Hive."
             }
         }
     },
@@ -50,13 +61,17 @@
             "caption": "Me and the gang at Nandos",
             "imgURL": "nandosgroup.jpg"
         },
-        "myFirstGuiness":{
-            "caption": "My first Guiness in Dublin!",
+        "myFirstGuinness":{
+            "caption": "My first Guinness in Dublin!",
             "imgURL": "myfirstguiness.jpg"
         },
         "hunterBangers":{
             "caption": "Hunter enjoying his bangers and chips",
             "imgURL": "hunterbangers.JPG"
+        },
+        "curlyWurly":{
+            "caption": "Yes thats a real candy",
+            "imgURL": "curlywurlys.jpg"
         }
     }
 }
