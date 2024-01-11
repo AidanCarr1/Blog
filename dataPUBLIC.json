@@ -1,5 +1,6 @@
 {
     "posts": {
+
         "0":{
             "title": "Our night at JFK",
             "date": "January 7, 2024",
@@ -11,6 +12,7 @@
                 "text3": "I eat mushroom pasta on pasta plane, it was pretty nasty."
             }
         },
+
         "1":{
             "title": "Arriving in Dublin",
             "date": "January 8, 2024",
@@ -22,6 +24,7 @@
                 "image2": "nandosGroup"
             }
         },
+        
         "2":{
             "title": "Day 2 in Dublin",
             "date": "January 9, 2024",
