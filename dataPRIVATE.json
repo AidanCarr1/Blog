@@ -13,14 +13,25 @@
     },
 
     "images":{
-        "nandosSelfie":{
-            "caption": "A bunch of bananas",
-            "imgURL": "bananas.jpg"
+        "jfkGroup":{
+            "caption": "Christina, Hunter, Aidan, Ashley at JFK airport",
+            "imgURL": "jfkgroup.HEIC"
         },
-        "hudson":{
-            "caption": "A hike on the Hudson",
-            "imgURL": "hudsonFence.JPG", 
-            "comment": "JPG is upper case in git hub for some reason and it makes a differnce"
+        "myNewRoom":{
+            "caption": "My home for the next four months",
+            "imgURL": "mynewroom.HEIC"
+        },
+        "nandosGroup":{
+            "caption": "Me and the gang at Nando's",
+            "imgURL": "nandosgroup.HEIC"
+        },
+        "myFirstGuinesss":{
+            "caption": "My first Guiness in Dublin!",
+            "imgURL": "myfirstguiness.HEIC"
+        },
+        "hunterBangers":{
+            "caption": "Hunter enjoying his bangers and chips",
+            "imgURL": "hunterbangers.HEIC"
         }
     }
 }
