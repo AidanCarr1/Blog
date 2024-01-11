@@ -19,6 +19,7 @@ body{
     margin-top: 25px; 
     margin-bottom: 25px;
     line-height: 70px;
+    padding-bottom: 15px;
 
     text-align: center;
     font-size: 70px;
@@ -31,7 +32,7 @@ body{
 
     -margin-top: 15px; 
     -margin-bottom: 15px;
-    line-height: 30px;
+    -line-height: 30px;
 }
 
 #setFont{
