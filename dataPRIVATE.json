@@ -21,25 +21,35 @@
                 "text2": "After settling in we went shopping at a nearby Pepco to pick up towels, soaps. We ate at Nando's next door.",
                 "image2": "nandosGroup"
             }
+        },
+        "2":{
+            "title": "Day 2 in Dublin",
+            "date": "January 9, 2024",
+
+            "content": {
+                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guiness!",
+                "image1": "myFirstGuiness",
+                "image2": "hunterBangers"
+            }
         }
     },
 
     "images":{
         "jfkGroup":{
             "caption": "Christina, Hunter, Aidan, Ashley at JFK airport",
-            "imgURL": "jfkgroup.HEIC"
+            "imgURL": "jfkgroup.jpg"
         },
         "myNewRoom":{
             "caption": "My home for the next four months",
-            "imgURL": "mynewroom.HEIC"
+            "imgURL": "mynewroom.jpg"
         },
         "nandosGroup":{
-            "caption": "Me and the gang at Nando's",
-            "imgURL": "nandosgroup.HEIC"
+            "caption": "Me and the gang at Nandos",
+            "imgURL": "nandosgroup.jpg"
         },
         "myFirstGuinesss":{
             "caption": "My first Guiness in Dublin!",
-            "imgURL": "myfirstguiness.HEIC"
+            "imgURL": "myfirstguiness.jpg"
         },
         "hunterBangers":{
             "caption": "Hunter enjoying his bangers and chips",
