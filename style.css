@@ -2,9 +2,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     /*width*/
-    width: 90%;
+    width: 90vw;
     max-width: 1500px;
-    min-width: 600px;
+    -min-width: 600px;
 
     /*center*/
     margin:auto;
@@ -79,7 +79,10 @@ body{
     transform: translateY(20px);
 }
 
-
+#feed{
+    display: flex;
+    flex-direction: column;
+}
 
 .postBox{
     background-color: rgb(194, 216, 175);

@@ -16,7 +16,7 @@
             
             <div id="hotbar">
                 <input class="topButton" type=button id='setFont' onclick="setFontSize()" value="LARGE text">
-                <input class="topButton" type=button id='setFont' onclick="setFontSize()" value="NEWEST posts">
+                <input class="topButton" type=button id='setOrder' onclick="setPostOrder()" value="NEWER posts">
             </div>
         </div>
         
@@ -39,7 +39,7 @@
         function loadPosts(){
             htmlString = "";
 
-            
+              
 
             (async () => {
 
@@ -53,9 +53,18 @@
                 let posts = Object.keys(data["posts"]);
                 let images = Object.keys(data["images"]);
 
+                //determine order
+                order = document.getElementById("setOrder")
+                count = Object.keys(posts).length
+                //alert(count);
+                 
+
+                //alert(startpoint);
                 //go through every post
+                //for(var i = startpoint; i != endpoint; i += inc){
                 for(const i in posts){
                     
+                    //alert(i);
                     //json post data
                     thisPost = posts[i];
                     thisDate = data["posts"][thisPost].date;
@@ -109,6 +118,8 @@
 
                 //put all posts into the feed
                 document.getElementById('feed').innerHTML = htmlString;
+
+
             })()           
         }
 
@@ -252,7 +263,25 @@
         }
 
 
+        function setPostOrder(){
+            button = document.getElementById("setOrder");
 
+            //set order to NEW to OLD
+            if (button.value === "NEWER posts"){
+                element = document.getElementById('feed');
+                element.style.flexDirection = "column-reverse";
+
+                button.value = "OLDER posts";
+            }
+
+            //set order to OLD to NEW
+            else if(button.value === "OLDER posts"){
+                element = document.getElementById('feed');
+                element.style.flexDirection = "column";
+
+                button.value = "NEWER posts";
+            }
+        }
 
 
         function loadTestPost(){
