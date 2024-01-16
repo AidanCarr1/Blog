@@ -67,7 +67,7 @@
         },
         "myNewRoom":{
             "caption": "My home for the next four months",
-            "imgURL": "mynewroom.jpg"
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85iGAxAfHP-kpIhaF63JN06YHUHhd1cmztC4aQXh7anGukMl_sVMiwKTZLQQijEpwVAEhlHqDQQuxSG4r6A6dbkzIDvqfg9kaOJuD51lcCc73kmJgpE03vD_nABkhX-wHh_5pR0vLphdO4X5jQK8KXA=w959-h719-s-no-gm?authuser=0"
         },
         "myHallway":{
             "caption": "The hallway in my apartment",
@@ -109,10 +109,9 @@
         },
 
         
-        
         "curlyWurly":{
             "caption": "Yes thats a real candy",
-            "imgURL": "curlywurlys.jpg"
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84oPd6DW5XItxw0Gb8xcZ9BB31a4nkE0hK6dnweeCHlKW0ggbVdoyrV_vkgDyqjJuGeSk7l20ZtZZh39UheuQ_C7Ebl6780sl6JGmAHTB9dlscBLeYYQN17GdtDGA7mRwzA0gny0xwF-DuG0hLQ2-ON=w651-h868-s-no-gm?authuser=0"
         }
     }
 }
