@@ -13,16 +13,35 @@ body{
     -background-color: green;
 }
 
+#header{
+    /* guinness truck */
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)),
+    url("https://lh3.googleusercontent.com/pw/ABLVV8639X7tRwcFSY8Df4hgPBB9IMZVsdVXHN_tAdjR48yojSEgO0m2JMa8oSnFqV2-_DbXxP4aSDd_eVJvr5v7qr8gz1hWo5cdANK_cSddqe-aEuMYeQzSONditmeT4Y6MszWt8hiCaZxOjBtaBmI64KJR=w1364-h869-s-no-gm?authuser=0");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 300px;
+}
+
 #siteID{
-    background-color: rgb(99, 137, 99);
+    -background-color: rgb(99, 137, 99);
 
     margin-top: 25px; 
     margin-bottom: 25px;
     line-height: 70px;
+    padding-top: 30px;
     padding-bottom: 15px;
 
+    /* text */
     text-align: center;
     font-size: 70px;
+    color:  rgb(4, 55, 4);
+    
+    -text-shadow: 13px 3px 1px black;
 
     transition: .8s;
 }
