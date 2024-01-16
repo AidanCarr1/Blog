@@ -37,7 +37,7 @@
         },
 
         "3":{
-            "title": "A Proper Irish meal",
+            "title": "A Proper Irish Meal",
             "date": "January 10, 2024",
 
             "content": {
@@ -45,8 +45,16 @@
                 "image1": "curlyWurly",
                 "text2": "After dinner, we played cards for a few hours in the Hive."
             }
-        }
+        },
 
+        "4":{
+            "title": "Bus Tour of Dublin",
+            "date": "January 12, 2024",
+
+            "content": {
+                "text1": "We woke up early to catch a bus around 8:20."
+            }
+        }
     },
 
     "images":{

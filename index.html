@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Aidan's Ireland Blog</title>
+        <title>Aidan's Dublin Blog</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -11,7 +11,7 @@
     <body onload="loadPosts();">
 
         <div id="header">
-            <h1 id="siteID">Aidan's Ireland Blog</h1>
+            <h1 id="siteID">Aidan's Dublin Blog</h1>
         
             
             <div id="hotbar">
@@ -44,8 +44,8 @@
             (async () => {
 
                 //get data from json file
-                //always PRIVATE for the private test site
-                const response = await fetch("https://aidancarr1.github.io/Blog/dataPRIVATE.json");
+                //always PUBLIC for the public test site
+                const response = await fetch("https://aidancarr1.github.io/Blog/dataPUBLIC.json");
 
 
                 const data = await response.json();
