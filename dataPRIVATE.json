@@ -9,7 +9,7 @@
                 "text1": "We arrived at JFK 4 hours early at 5pm!",
                 "image1": "jfkGroup",
                 "text2": "I got us some boneless wings from Buffalo Wild Wings. After a 45 minute wait, I brought back 25 wings, I accidentally ordered buffalo instead of mild. They were much spicier than I wanted.",
-                "text3": "I ate mushroom pasta on pasta plane, it was pretty nasty."
+                "text3": "I ate mushroom pasta on the plane, it was pretty nasty."
             }
         },
 
@@ -18,9 +18,9 @@
             "date": "January 8, 2024",
 
             "content": {
-                "text1": "We landed 9am local time, exhausted. I picked up a random taxi on the street for us and he drove us to the Dublin City University, Glasnevin campus. We got our keycards and checked out our rooms. After a confusing discussion on where to go to find the exact room numbers, I went to still the wrong building. They wrote down the wrong house number for me so I got the help of a friendly cleaning lady.",
+                "text1": "We landed 9am local time, exhausted. I picked up a random taxi on the street for us and he drove us to the Dublin City University, Glasnevin campus. We got our keycards to check out our rooms. After a confusing discussion on where to go to find the exact room numbers, I still went to the wrong building. They wrote down the wrong house number for me so I got the help of a friendly cleaning lady.",
                 "image1": "myNewRoom",
-                "text2": "After settling in we went shopping at a nearby Pepco to pick up towels, soaps. We ate at the Nando's next door.",
+                "text2": "After settling in we went shopping at a nearby Pepco to pick up towels, soaps, toilet paper, laundry baskets, and trashbags. We ate at the Nando's next door.",
                 "image2": "nandosGroup"
             }
         },
@@ -51,24 +51,65 @@
     "images":{
         "jfkGroup":{
             "caption": "Christina, Hunter, Aidan, Ashley at JFK airport",
-            "imgURL": "jfkgroup.jpg"
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86SstswX4EkndckwsTzCpzaQr_0sA7rP0NpxasfoUEXcnlosdF8XpEOsWPQbtu-23sWWR1hvFZA2qNr3WQlLA2pMXq5sgMVoK4GwUrb25lihWiySlk=w2400"
+        },
+        "taxiStreetView":{
+            "caption": "Our first look at Dublin from our taxi",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87VcErKwEmHfOIEp4vqxzvDD7QJC0N1NVswxHoJRsHUIwFmarAdiOfVNGVl9K1cXlE6wXMzMdKsrjcatjxsRkyk790Hae6jX64atA-2Q8AkttLK4B8=w2400"
+        },
+        "walkingToHousing":{
+            "caption": "Walking to our housing assignments with our luggage",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87-58PCweQs4631pHLrNI3u__giTDLwz4z4YWD3L25hUQOZMeKxdVDTZvEG2WxEx_-iJoyoqZPcIrgTjPeBxjj7opOdCpYAli6-SUoylKVKVDwA2-E=w2400"
+        },
+        "waitingForCleaningLady":{
+            "caption": "Me wwaiting for the cleaning lady to come back with my key card",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86ecO2iz_hy3FLNgvUJhh8dR-VfTB-TMl5GrB-EH98BIAspxxBR3Ux1e6HagfgboB8sEw-lpqn2TM_TYfXnoGxnZYC4vse6I41mRrx4sTRV9Pn8sfM=w2400"
         },
         "myNewRoom":{
             "caption": "My home for the next four months",
             "imgURL": "mynewroom.jpg"
         },
+        "myHallway":{
+            "caption": "The hallway in my apartment",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV848_akdanmEouvakeFltacBAyY9xlcSgAIaZcTjQIWX9Cc8K60r89Ds3gwz5sBSCWdSlYxPpeCgK4kZkaWs2Lk_zUuAuzfFQ8fjwuP-StkZC1d51oA=w2400"
+        },
+        "myKitchen":{
+            "caption": "My apartment's kitchen",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85PqYtncYSD2yydJKNzX7A7dFCewUUEsB47r6D-FdjhuvqiJH5-HDlCTjxM2TuRYThQ9YYF0R8IJmFXQOPD0Pu2U3H7Xmfj9uj8z2mIJX0RjIJ4bQY=w2400"
+        },
+        "collegePark":{
+            "caption": "The College Park Apartments at DCU Glasnevin",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84QIwZk7OaCUEeWWOPLAVQzBDJZ5dgs1vEnS46QhIc17JuyR25a9UWf1h4caSEdQAb0XcOhq_T59Gfy08kBbxT1fa2jFJSCVU7u01AjGkrxYziEpG8=w2400"
+        },
         "nandosGroup":{
             "caption": "Me and the gang at Nandos",
-            "imgURL": "nandosgroup.jpg"
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87BNnh5_GFw9Mt2KoZLYE9PrQ3KRyIu-deImDEJ-htZ7lVQCLr0oE7I-90_njj5q8iv68zgfyvKlL7f3XTdeebMEx4Rb8dXHMS_AOjeGoIwUKy_Mdo=w2400"
         },
+        "theUBuilding":{
+            "caption": "The U building hallway",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84LVfRqYsllYKwgzx_h5JeSOcyoF3RH8p0mqi_kP_mOw17mV1Dme7hok25i5N3xuiXAVYzvo-jXOOJfZBSfjE_wXYGwss5agB0ksZhV6z6LVfi06e4=w2400"
+        },
+        "nubarEntrance":{
+            "caption": "The Entrance to NuBar",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87zNACFfKVFVTOCrtCzUO6hohro_svFfu6oBvQv-gv9PSyaVNQwYYpvV_ah1VYWwp-tJf7n3vtgdUdzTGPM-vlLHY2YJd4zG4EPUtBxfxR7amSjEvo=w2400"
+        },
+        "theLondis":{
+            "caption": "The Londis marketplace",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV863pVHau1BbDumriANvDW37scRv94Ct2x-wdP3E6zwXItNwyzMBQSs0g363fjXWnBJtIF2gUaNLe6Th3CUPh_zGrfIm7ou_NrI88OpIHGuvBjThNa8=w2400"
+        },
+
         "myFirstGuinness":{
             "caption": "My first Guinness in Dublin!",
-            "imgURL": "myfirstguiness.jpg"
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86gNJd1--p3yT44n1kwIuRMp8hfsEke7LEL0lHLYbn94klZ32ONA-48SHcNzTaPtcSIFKZG2pMD_u9WLD_K5nUGN7TSq8cjx43H0FLiIP-tK1S8au3wcd6RWsL-Us7V1UcwL0AOzxFKlRhUc0tZ5n8NRcxR-7IlmzbxY6A53rmAdUg6ODm9HEBMpsnRPRqaU0EBdVd8qkuWohb5L_ZsfNE4ZL4TIURiSVJg4xRT3w-U3mq-YT6kqUAzTQJ4z1SsgG0LlVtUE-TzzMsRdIKNRLnxCTYsXXwX3leYbgY5JlTlnGWwhDyUHkuDvZImhMPtrnsaZN4wu5mhCQLTA_CsjFBtfmdbTZ1WUvuM3uNIk2gjaiiTXusHJVd3ddq0Y0UYHr9l_gQB_9LywdSVzjh8KoP30O0PTzU8S7MbrgTrZBLm3UUYNf1OmgvZ6WrxK4jrbxTT9PykF_06fyMXt6CDiqHv4vht_E7CgoB9R-Z3oWdlLwqPILANkeo7ptnaod8ibYTbSEsVrzPsqL4RAlc7GtP4YhlTwlmPChoRmC9MQVLpuquXDsB0dCjgiYIB_zRYk59cbplt2YXIGUlWv6FEzbEunGsqeN9Ld_O0GT7VSjyJ5jhUxixiAm3nV-i-rtpTHqCwzI_QRm_F4RicmBGrY9L1iayH6DjIqHDKe2XTPXY5kz3tZACLYbBSiuqLMNk5-M6biGUijOq5gcmmzFYECa_k_c_qCPfmSN-Qej0Ioh9Aw32E8F_R8vghFm3DzeVZUEXzaXpzd9WTSJmPojXkmJqMbbvNOs9-yDMJ9DbvNDKZa5ZkmTmm5mHw7OqMIpdZ5CEFOsP06F-DOoWMvtxkl0rz8X9dNK8Ch3SbJiqyqg0MgTRYc8Z6Ug0nGLYui78IG4hpWQ=w651-h868-s-no-gm?authuser=0"
         },
+
         "hunterBangers":{
             "caption": "Hunter enjoying his bangers and chips",
-            "imgURL": "hunterbangers.JPG"
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87iD1FgkJvC4e9lyemUb-1EgUshIqaLgidoign8QJnK3O3ReqO0hnaXglxInXqgS8f9l2cDc2iZ_-IDHAU5GwAU25wymJoCBnfnzeUrWfG8dEwSZOZfvDbB7l2EE8EoV0WHnMFsP865z7c6ZlPWjC5A=w488-h868-s-no-gm?authuser=0"
         },
+
+        
+        
         "curlyWurly":{
             "caption": "Yes thats a real candy",
             "imgURL": "curlywurlys.jpg"
