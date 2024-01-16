@@ -9,8 +9,8 @@ body{
     /*center*/
     margin:auto;
 
-    /* green background */
-    -background-color: green;
+    /* background */
+    -background-color: lightgray;
 }
 
 #header{
@@ -24,17 +24,20 @@ body{
     background-size: cover;
     position: relative;
 
-    height: 300px;
+    height: 325px;
 }
 
 #siteID{
     -background-color: rgb(99, 137, 99);
+    max-height: 225px;
 
     margin-top: 25px; 
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     line-height: 70px;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 15px;
+
+    
 
     /* text */
     text-align: center;
@@ -47,36 +50,58 @@ body{
 }
 
 #hotbar{
-    -background-color: lightskyblue;
+    -background-color: rgb(105, 115, 121);
 
+    position: absolute;
+    bottom: 0;
+    -left: 0;
+
+    height: 100px;
+    width: 100%;
     -margin-top: 15px; 
     -margin-bottom: 15px;
     -line-height: 30px;
+
+    text-align: center;
 }
 
-#setFont{
+.topButton{
     font-size: 30px;
     line-height: 30px;
+    height: 50px;
+
+    /*spacing */
+    max-width: 40%;
+
+    /* vertically centered */
+    margin: 10px;
+    position: relative;
+    transform: translateY(20px);
 }
 
+
+
 .postBox{
-    background-color: rgb(232, 238, 227);
+    background-color: rgb(194, 216, 175);
     
     /*border*/
-    border-radius: 25px;
-    border-color: lightgray;
-    border-style: solid;
-    border-width: 1px;
+    -border-radius: 5px;
+    -border-color: lightgray;
+    -border-style: solid;
+    -border-width: 1px;
 
     /*space within the post */
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
 
     /*space between posts */
     margin-top: 25px;
     -margin-bottom: 15px;
+
+    /* shadow */
+    box-shadow: 3px 3px 3px rgb(154, 153, 153);
 
     transition: .4s;
 }

@@ -13,8 +13,10 @@
         <div id="header">
             <h1 id="siteID">Aidan's Ireland Blog</h1>
         
+            
             <div id="hotbar">
-                <input type=button id='setFont' onclick="setFontSize()" value="Click for LARGE text">
+                <input class="topButton" type=button id='setFont' onclick="setFontSize()" value="LARGE text">
+                <input class="topButton" type=button id='setFont' onclick="setFontSize()" value="NEWEST posts">
             </div>
         </div>
         
@@ -117,12 +119,12 @@
             button = document.getElementById("setFont")
 
             //set font to LARGE
-            if (button.value === "Click for LARGE text"){
+            if (button.value === "LARGE text"){
 
                 //site ID
                 element = document.getElementById('siteID');
                 element.style.fontSize = '90px';
-                element.style.marginTop = '35px';
+                //element.style.marginTop = '15px';
                 //element.style.marginBottom = '35px';
                 element.style.lineHeight = '90px';
                 element.style.paddingBottom = '20px';               
@@ -180,11 +182,11 @@
 
 
                 //change button to setSmallFont
-                button.value = "Click for SMALL text";
+                button.value = "SMALL text";
             }
 
             //set font to SMALL
-            else if (button.value === "Click for SMALL text"){
+            else if (button.value === "SMALL text"){
         
                 //site ID
                 element = document.getElementById('siteID');
@@ -245,7 +247,7 @@
                 }
 
                 //change button to setLargeFont
-                button.value = "Click for LARGE text";
+                button.value = "LARGE text";
             }
         }
 
