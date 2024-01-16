@@ -51,27 +51,27 @@
     "images":{
         "jfkGroup":{
             "caption": "Christina, Hunter, Aidan, Ashley at JFK airport",
-            "imgURL": "jfkgroup.jpg"
+            "imgURL": "images/jfkgroup.jpg"
         },
         "myNewRoom":{
             "caption": "My home for the next four months",
-            "imgURL": "mynewroom.jpg"
+            "imgURL": "images/mynewroom.jpg"
         },
         "nandosGroup":{
             "caption": "Me and the gang at Nandos",
-            "imgURL": "nandosgroup.jpg"
+            "imgURL": "images/nandosgroup.jpg"
         },
         "myFirstGuinness":{
             "caption": "My first Guinness in Dublin!",
-            "imgURL": "myfirstguiness.jpg"
+            "imgURL": "images/myfirstguiness.jpg"
         },
         "hunterBangers":{
             "caption": "Hunter enjoying his bangers and chips",
-            "imgURL": "hunterbangers.JPG"
+            "imgURL": "images/hunterbangers.JPG"
         },
         "curlyWurly":{
             "caption": "Yes thats a real candy",
-            "imgURL": "curlywurlys.jpg"
+            "imgURL": "images/curlywurlys.jpg"
         }
     }
 }
