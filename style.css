@@ -164,13 +164,14 @@ body{
 
         /*make caption close to img above */
         margin-top: 5px;
+        margin-bottom: 10px;
     }
 
 /* Image Modal */
 
 /* Style the Image Used to Trigger the Modal */
 img{
-    cursor: pointer;
+    -cursor: pointer;
     -transition: 1s;
 }
 img:hover {

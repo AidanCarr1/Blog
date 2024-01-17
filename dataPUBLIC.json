@@ -52,14 +52,37 @@
             "date": "January 12, 2024",
 
             "content": {
-                "text1": "We woke up early to catch a bus around 8:20."
+                "text1": "We woke up early to catch a bus around 8:20. We figured out how to pay by talking to the driver who was very little help, throwing our €2.70 worth of coins in the little box.",
+                "text2": "45 minutes later we arrived at Griffith College, the home of our study abroad company CEA CAPA. We were greeted by Anne where we met Megan, another student from DCU through the CEA CAPA program, who coincidentally took the same bus as us.",
+                "text3": "After a quick introduction to the team and our fellow classmates, Anne took us to another room where we told her all our issues with choosing classes at DCU. The summary of all our issues will come in a later post, it will be a long one.",
+                "text4": "We hopped on the bus at 2pm and took off with the other 30 CEA CAPA Griffith College students.",
+                "image1": "busViewChurch",
+                "text5": "The first major stop was Phoenix Park, where we passed many deer and the Wellington Monument.",
+                "image2": "ppDeer",
+                "image3": "ppMonument",
+                "text6": "We checked out the Papal Cross where, in 1979, 1 million people gathered for a mass held by Pope John Paull II.",
+                "image4": "ppCross",
+                "image5": "ppPanorama",
+                "text7": "We drove more throughout the city passing many landmarks and small shops.",
+                "image6": "ronansCoffee",
+                "image7": "dublinCountrySide",
+                "text8": "We then made our way east of the city center to Howth (pronounced Hoath), a small peninsula with cliffs and a little village.",
+                "image8": "howthParking",
+                "image9": "howthWalk",
+                "image10": "howthCliff",
+                "image11": "howthTown",
+                "text9": "For dinner we ate at the Brazen Head - Irelands oldest pub (so they claim).",
+                "image12": "brazenHeadFront",
+                "text10": "I had a bowl of Seafood Chowder (the best food I have eaten here so far, delicious), fish and chips (1000 years to perfect the recipe and it still wasnt that great), a Rockshore Cider (grand!), and an apple crumble with ice cream for dessert (yum).",
+                "image13": "bhSoup",
+                "image14": "firstRockshore"
             }
         }
     },
 
     "images":{
         "jfkGroup":{
-            "caption": "Christina, Hunter, Aidan, Ashley at JFK airport",
+            "caption": "Christina, Hunter, Aidan, and Ashley at JFK airport",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87hVpDtBGo5erF8nsK2H8Zv5qL8VaR5IWYnKA-JljukMsu_LB7mn03MHPQHRUndQnRRN5uUsaLl-wRoDskrZ82NJ4YDR9kVgcGWCxvhBoT-ALnuiCKVq-dOmDKpXqsNbOMaHIB03APLiYeMX7x9t2fg=w959-h719-s-no-gm?authuser=0"
         },
 
@@ -135,58 +158,63 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84pJ_WU54rRVFUCPkNSq-4aDdqdG3UGeLmlWkjzk28VCNaazTOTaKqb0rHts1bh0zR8t-hLkAQsi1b15mnw7SimWS91ttPHl5yKjM5vUJET-8My4qSUgnGGGhXeHuKixRnth6byPbOFxJwWrDp8Ja-7=w651-h868-s-no-gm?authuser=0"
         },
 
+        "busViewChurch":{
+            "caption": "My view in the bus of some church",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV846YlGAMOxaGmUX9M653KaS-_Xp286Cp6Ah86J_PVd9ZdHpgumI4s0CS2VQqatMr1SD8IjI1thn2pjgY3Kl06CLUL2lzINpru8bhJWJ5lcUPKsdm3w-UAq5dLg3PXXmZmKnzJpKOOj_nhxX0D8TyIqS=w1159-h869-s-no-gm?authuser=0"
+        },
+
         "brazenHeadFront":{
             "caption": "The Brazen Head, Ireland's oldest pub",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84PPyxQ4X0-JBYVS8LWcGnro-g7tiWMORVoZw6M9YKrUcFnyDqxjXjZSuKXW6fKqEXFLFLb-etMeShFOsujgB392xzyJdTBPrSjn2gkXLEc0hUgVXMb7n0J3UIk1DktNjHoH2e5kzj_TksySJ3ACya9=w959-h719-s-no-gm?authuser=0"
         },
 
-        "pParkMonument":{
-            "caption": "______",
+        "ppMonument":{
+            "caption": "The Wellington Monument",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84zYs_5UDOSLsKDCKbEs31rNJl7VPZgs1rEUP9zyPL9TPIKDNWj9fhGPE6G24sp9AASbihhQwSOqik43ftf2k4glGCNGEweE-A6KWH9T6C9ntARJeX5ZBXJmsjZC4RbO68MZe_bDF_3-5_A6wz5QgB7=w651-h868-s-no-gm?authuser=0"
         },
 
         "ppDeer":{
-            "caption": "______",
+            "caption": "The deer at Phoenix Park",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87QB1yOTQJ-MFOmftf77nWZLRiMFQf3BVOpmZVpKWACYYZnhMNOr7IJLVLryenx0SXQWe9zO3YtCL2zgGX-c2qbjRKh-cm_WfKtrhikulSJ8mu2DLImsX4Ld4kOO6A7KrSvq-xqx2A_hqIQJQjJxvue=w651-h868-s-no-gm?authuser=0"
         },
 
         "ppCross":{
-            "caption": "______",
+            "caption": "The Papal Cross",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84rqOxHmi0rpfiVD2MQlYAoo0O0AFtGsaqTNwzeFcRKSMFl-6AkkKS0bccVCiIBnSViS2KkCW7dUDfmRlxn1HZ95NdmEgku8fUoteVL9DEaNpXb-LeQUbHB2SPGGU_MVbl71XHY3XyuH51rIZ9OEmWp=w651-h868-s-no-gm?authuser=0"
         },
 
         "ppPanorama":{
-            "caption": "______",
+            "caption": "A view of the papal cross field",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84AhNAh2v1QQASA5vp48CJ2qSLANd1riUlDkdx8GzdpzEwcsD7nizfrCKzcWBkKOsw38wZ4BFvI2Z_8ICTo27wXOcpqgQgPKsiLwujWqcVfBMgzQy6O3bOp02KNLFGLFz2Z2NNOw68xTWaSXngzxk4P=w959-h254-s-no-gm?authuser=0"
         },
 
         "ronansCoffee":{
-            "caption": "______",
+            "caption": "Ronans Coffee",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85zJyhfx95XjA6w6sknnWsLA5CX1AQ3K9VAc4MLGBmMd_l2uKEDfj7eiQLnLK4E7APNbAixKGk8kgaqvl-h2hx5jyPgzo41t9XbrR--reqlx5ToiaZ4QdHptGf-yMb669N8N3ICsq5TUoB3vabAZ5WX=w651-h868-s-no-gm?authuser=0"
         },
 
         "dublinCountrySide":{
-            "caption": "______",
+            "caption": "Country side just outside of the city",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86GMoHNQNEnW9B9Nl_VJpVKhKOTy1Tywy5UsYfwDqfaPq5o66gzg7ZOWl3iBPAeJzjvTH0LQHM0Bh2ds-0xrZxvWzbPBWL4t72Np9Tt7xqlFYLEZDlJPnvwawQHSc7qXy6V_QaLjRR8gN6vQ7wFMN2y=w959-h719-s-no-gm?authuser=0"
         },
 
         "howthParking":{
-            "caption": "______",
+            "caption": "A view of Dublin from the Howth Peninsula",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87ZAqTM1rREMrWFgJlx6RYrfTr8ddJorNkn6fGCTRH6RPWDNZIRuREIAT0nONb4hbroJcRlZbA90fKirRlJ5SugSrc1bQSPvQc6C1dE8M8DfMs3Te3m867kxQuBsJAi1kviYaaSLy1y64cMzZEJO4KM=w959-h719-s-no-gm?authuser=0"
         },
 
         "howthWalk":{
-            "caption": "______",
+            "caption": "Walking to the Howth cliffs and lighthouse",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87bDJzybKuUiIV84p-wJQ0VYTDQ5WFqy7oD9Zq4o4mMrv1NTkctsOjMxisUU0rmgvaMsGYq_TwA72Gdf-zW_31fbE4zQckUghsM9OmAu3z9Vl6bE_WFu7r70oFHZGrrAT97IedJ2V9jAumQGkRLqK-N=w651-h868-s-no-gm?authuser=0"
         },
         
         "howthCliff":{
-            "caption": "______",
+            "caption": "Howth cliffs",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84k1isLlNc7hMdjKLc4P5kwjMyvZqCxAQbG8x0OuoJBp1Og33RlKrVmRvtWbmCX_aws40iGrc0AseiEXQfACIg7L7eL9GZg6tK7Gkumn_9-mywzHP0nS5pmTMLNTR0r7bfHHmeM39JcQK-9-uyZjER_=w651-h868-s-no-gm?authuser=0"
         },
 
         "howthTown":{
-            "caption": "______",
+            "caption": "The village of Howth",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87QPzw0fZHTv3NbVPYS36Z0TyqGwmYHNqa1mqMxNddDDmWmqqQ5quz-fdUqYHMS8TKfZwQNTB9xI7LsF39C-6EDwm4CbK-pmyoi1_vNg7W5nM2Noa5fHpL_YxkUmknf7tPWS36hQbNzPGU0qpLSY8P4=w959-h719-s-no-gm?authuser=0"
         },
 
@@ -196,17 +224,17 @@
         },
         
         "campusPic1":{
-            "caption": "______",
+            "caption": "DCU campus",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86CtvkQ_9B5IPGQqzmes_hx0tKrO5XgWHORKNarOhVITCl6RI9IfV91-m8lMVoVNLrzgMg2kQZ-xyymLOChal1A5W0y0GqwZswVzoFDOdWouzMb1bgjkQi1C_R8IrW5N_8jaBZOOUH7sVhAaCspoBu0=w651-h868-s-no-gm?authuser=0"
         },
         
         "campusPic2":{
-            "caption": "______",
+            "caption": "DCU campus benches",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85eWqqQHKn4xlf1wOC5iVlmvZuk4VDPntFm6-8-zR-7SxxCbtHgzvDA7MsHXnyPXvPvSQ0egpTNDM93E15CoHcHC2V_90OjJQtGQvmMau_zXBc4V3n5XjX-MZVpVh5ucByu3xbQJDG6VKhjQke-e2_p=w651-h868-s-no-gm?authuser=0"
         },
         
         "classroomPic1":{
-            "caption": "______",
+            "caption": "A classroom in the Lonsdale Building on the Glasnevin campus",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85A8aPMBOSmonDBGWXFz12Luqq-QKpLpMbDVPLUnciOh6mWSH27WhBmge5V2jYbgJB8aHecE8Tq8Kq5xm9yPWl3s4qXE6uYj-vh75alsLFeYN0SHnKF3fC8D2HASyxnHEpILhv3AeNtrG2nWxgvwxit=w959-h719-s-no-gm?authuser=0"
         },
         
@@ -226,7 +254,7 @@
         },
         
         "firstRun2":{
-            "caption": "______",
+            "caption": "Views from my run",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85y8q3XoeFQhNLjyQOb95VP5R4GK4rIupcj_I3U9GxhX_oRwjRXXCed4P28ZRKQQz8-0LvwYWruLOGTMAzyRnNkiaui_tqxZM_ex3OocfyWRFvFC0FWZvExlWkxGe5_fJWVoaqbS_AMAfbauHFt3kMV=w651-h868-s-no-gm?authuser=0"
         },
         
@@ -235,7 +263,7 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87vIZNzPhGSipwlvdwEdg9uuyT9iHJKtDqEh3EA05Zh57521_0cgx9B7zbeS3cV73Qt0tZlW3qXlBvnbJaFtLFZFjvoB68BHqdA3Er3jgtq61j3qxY4QMJrZsEWVo4oUXPoJMEByiVBuEj-JRpFAFDw=w959-h719-s-no-gm?authuser=0"
         },
         
-        "guinnessTruck":{
+        "guinessTruck":{
             "caption": "The Guinness truck",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85CFM-AA1OaBMIw915O9YNAsjHqdmrh8VKK43QtFwIPYJzohhhXc1PkZtooR97xYgMpmgOo-YgXaRwYoJgs5BteOIB5zaa2SXsoBFqShq6Jv3sZKf0c0pKWijgLYO9b-ws1N6IzBMgxQU3SVvdsFPzt=w959-h719-s-no-gm?authuser=0"
         },
