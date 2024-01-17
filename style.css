@@ -81,7 +81,12 @@ body{
 
 #feed{
     display: flex;
-    flex-direction: column;
+
+    /* old -> new */
+    -flex-direction: column;
+
+    /*new -> old */
+    flex-direction: column-reverse;
 }
 
 .postBox{
