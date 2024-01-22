@@ -172,14 +172,35 @@ body{
         margin-bottom: 10px;
     }
 
-/* Image Modal */
 
-/* Style the Image Used to Trigger the Modal */
-img{
-    -cursor: pointer;
-    -transition: 1s;
+.observation{
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 218, 144, 1), rgba(255, 229, 178, 0.8)),
+    url("https://i.etsystatic.com/21850294/r/il/a09e2d/3492306539/il_570xN.3492306539_4hic.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    min-height: 150px;
+    width: 80%;
+
+    text-align: center;
+    margin: auto;
+
+    border-radius: 8px;
+
 }
-img:hover {
-    -opacity: 0.8;
+
+.obHeading{
+    font-size: 30px;
+    background-color: antiquewhite;
+    padding: 5px;
+
+    border-radius: 8px 8px 0px 0px;
 }
-  
+
+.obText{
+    font-size: 20px;
+}

@@ -8,7 +8,7 @@
 
     <!-- <body onload="loadPosts();" -->
     <!-- <body onload="loadTestPost();" -->
-    <body onload="loadPosts();">
+    <body onload="loadTestPost();">
 
         <div id="header">
             <h1 id="siteID">Aidan's Dublin Blog (TEST)</h1>
@@ -23,6 +23,7 @@
 
         <div id="feed">
             <p>Blog posts should appear here.</p>
+
         </div>
         <br>
     
@@ -30,7 +31,7 @@
 
     <footer>
         <hr>
-        <small> <p>&copy; Aidan Carr January 17, 2024</p> </small>
+        <small> <p>&copy; Aidan Carr January 22, 2024</p> </small>
     </footer>
 
 
@@ -288,8 +289,11 @@
             
             /* Test Blog Post info */
             var thisTitle = "Test Post";
-            var thisDate = "January 6, 2023";
-            var thisContent = "<p>Hi. This is what the post will like like when I have put it in the JSON file. <img src='/images/wiggum.png'></p>";
+            var thisDate = "January 18, 2023";
+            var thisText1 = "Hi. This is a paragraph. I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!";
+            var thisAudio1 ="https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator";
+
+            var culturalObservation = "They say funny words here! craic means awesome!"
             htmlString = "";
 
             //create div
@@ -301,8 +305,15 @@
             htmlString += "<h3 class='date'>" + thisDate +"</h3>";
                     
             //content
-            htmlString += "<div class='content'><p>" + thisContent + "</p></div>";
+            htmlString += "<div class='content'><p>" + thisText1 + "</p></div>";
+
+            //cultural observation
+            htmlString += "<div class='observation'><h2 class='obHeading'>DUBLIN OBSERVATION</h2><p class='obText'>" + culturalObservation + "</p></div>";
         
+            //audio
+            htmlString +=  "<div style='margin:20px'><iframe src='https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator' style='border-radius:12px' width='100%' height='300' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe></div>";
+
+            
             //put all posts into the feed
             document.getElementById('feed').innerHTML = htmlString;
         }

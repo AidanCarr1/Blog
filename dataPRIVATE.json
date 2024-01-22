@@ -53,7 +53,7 @@
 
             "content": {
                 "text1": "We woke up early to catch a bus around 8:20. We figured out how to pay by talking to the driver who was very little help, throwing our €2.70 worth of coins in the little box.",
-                "text2": "45 minutes later we arrived at Griffith College, the home of our study abroad company CEA CAPA. We were greeted by Anne where we met Megan, another student from DCU through the CEA CAPA program, who coincidentally took the same bus as us.",
+                "text2": "45 minutes later we arrived at Griffith College, the home of our study abroad company CEA CAPA. We were greeted by Anne where we met Meghan, another student from DCU through the CEA CAPA program, who coincidentally took the same bus as us.",
                 "text3": "After a quick introduction to the team and our fellow classmates, Anne took us to another room where we told her all our issues with choosing classes at DCU. The summary of all our issues will come in a later post, it will be a long one.",
                 "text4": "We hopped on the bus at 2pm and took off with the other 30 CEA CAPA Griffith College students.",
                 "image1": "busViewChurch",
@@ -278,7 +278,68 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84c1yxNMxIq39ZarONd6ygOwhvdmP5tBDI2I5RI4_IQ6jY_LxIFJQItq2NqdJOqcprZEw6c7E7seZA_zMbxwNCwxIdwakuPN52WodO3mSXThAmZg_KiIAJnEpVQJwEu-chOfBnBwbGeaRCEComcD6mm=w651-h868-s-no-gm?authuser=0"
         },
         
-        
+        "huntersChicken":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87K7A6jfxfMS-1PMjDk7Ox40H0RO1FfLrwDRLG5he1esngfcPGHRJd0zCgajDYehf1z7XhhRuOQL55gEt4wU9FsrcOVUAJrRAAgVnZ2feayN5zxhp60Y-pPOQEMqz5pbyIfkWNlWF8uDGCdZ1nYyZlN=w959-h863-s-no-gm?authuser=0"
+        },
+
+        "Ubathroom":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV8461wL6gy94tsH4Jk57_El8cP3ro6TaNt7m4kI2efKdwCHNTqgHpb1cQ7sOEPcrVHQpQ-cADMll3_juqzNd9UOLuxkp2Bd74VXkWpaWIPEAlVQf_77pIvA_mkhIWlq2NHHklXI-SNPmwCYj8-kFlIYo=w816-h868-s-no-gm?authuser=0"
+        },
+        "homework1":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85BhIVyrmdm6fjYYPuP6YbF0VlVJys3q6hdc5E_D1ip8V_-AwRexS3M6G_WVL0G2kSmSCTIV4yOtScRtvw1OSCgVqLO2FR4uxa3Kh5LpAwOz6B0K9TZMXuJkrExMEFCdDOS96Y-PbKAQ025xdbAijru=w651-h868-s-no-gm?authuser=0"
+        },
+        "libraryWindow":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84atQtJ06CtAJieXKCQOSAdnwbN_JDNLsD5vEtQPbB0T4YW7nGjMLQm__2e77q_Xdycj0qSjBmYswW8DemS-7NFyT3Dg8xov38niRFH5NyBNROs4cFJF_OwwORct1kL1-mFWo4vF6LPUHkeyyFc3Rpw=w811-h868-s-no-gm?authuser=0"
+        },
+        "theMall":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84buwloMotIUwd-bLLSyGS35p0isVnle-w9CCu3hiifBnhWHv3fKcJElZEGcmjOYdbPDGbLKstoqYP2vIGQivJlvZ3ghbjI30tkSJxTKDWEVDRpV2_dZoJ1AqFwaocoYeurPLX74Rof_JSnJTIrFt-R=w651-h868-s-no-gm?authuser=0"
+        },
+        "graftonSt":{
+            "caption": "Grafton Street",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86c0lDRoMShGg5VUsagIpy9jWhR27R8C67UoihIWlGZbSVel8jsfee_y2FyImFjCXt_jFDjB-yys2klGmohz5nTwRX8NA2mHslkKLblitddzMC0XBN4KSRvBOTw-AKDhCldAuYWyWufmXHAkGy9QZ-J=w694-h868-s-no-gm?authuser=0"
+        },
+        "kopparberg":{
+            "caption": "Kopparberg cider",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84MSEN5kV1J-vHC7QIHzoijj3JxwAV_itZ9x9nLAWusCACckl3xPRR9Wx8AYt2JgoBHy2FS_4pGhahUmQsTCLX_DxBM_WZ3qbv_oPrM1d8Ccf7uhQmDNnneaEbxvCqus5rRsNvAGDAEvD0CNx3WlUre=w755-h868-s-no-gm?authuser=0"
+        },
+        "tourGuide":{
+            "caption": "Our Literary Walk guide",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85NqG0TbO4xVWnKqoyt1VpZpWJxXVnY-Chcj462MVgyU6bow5om5f7PV6fW5EGAOqEPOuLrcuY3NXGEeA0c6U2Uy2zuM6YZoSTdfxHyBoaOurI91J8hYNiPKoLC_28QB08g14-7R6xq28DGbSxdT9Om=w650-h868-s-no-gm?authuser=0"
+        },
+        "ONeillbathroom":{
+            "caption": "The urinals at O'Neills Pub",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87vTLmjMRaYiNUKhUD0q_UO5QURlJLC52qpxaQGeXWvw4vhiZMuzI4KGsbtgvAFqotS-loufh-2rpv3swAOz4IGD3BzrIQjzgdK0u0vGq8Z2b-T_o4_ME5KsDB3Z1dlR5aRZ6h9mcA5i8CUtor4lv_k=w651-h868-s-no-gm?authuser=0"
+        },
+        "hgCouch":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85XLBfbg7Y8kzByNSJkzFz552FN4M5lc6ikmN4IIL7-_FibTzYGYhJQabJOu35XaTJcuQwWlnUJJ52wbZkRq6LvNXUpY4bhdakP7pIpg4moB6KlDroqJkPikDFQmaT-qPbu5752a-EPDLKDt9wOrM-Y=w959-h719-s-no-gm?authuser=0"
+        },
+        "samBridge":{
+            "caption": "The Samuel Beckett Bridge, the River Liffey, and the Convention Centre at night",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84s-jT18RzyEvXqfgQtzjEjgUjmVl7twLP32yDQUyhU6dl3KjV1oR3_UTQirQEIOQFnOLVBDI4SeLJVrknvQ7RzTd1HDqEGPRXP-WiWAc1RdsyCSqEZYkpm-FDlNjvPhOxKCTfkqV514ES7Qxb6aXtl=w959-h719-s-no-gm?authuser=0"
+        },
+        "redLights":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85AMqJvabau9_8uecuBJE5fFyO-Sa8QljWaoLBCifOcqPQrKUn3WTRxHxrwzzI2w3eSc-NKt_AeX2xq0rlQC4-vEFRTeE_m-0QBncTi5PanCdql6HNum3YGp3kY7vKJC_Ia9piCTOu_mnnaiWP03QP0=w959-h719-s-no-gm?authuser=0"
+        },
+        "halfRoast":{
+            "caption": "The half roast chicken and waffle fries from The Gasworks",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84WVGLMowV4dBRkbVTDtFxJdxN1h1kqJRbwbW7cFBgJdSXdVizpOMrbz4eZO4BtJVp6_adfc46Oj4vxCQ0AT2dPg30fUv8f8i7lVsbCGbcSdsH4eSEBWGL2Aqf-7sUL8E3zoyZ_AEDGI_pc2QnkiU54=w959-h719-s-no-gm?authuser=0"
+        },
+        "gasworksGroup":{
+            "caption": "Ashley, Christina, Meghan, Nicholas, Sam, Hunter, Kyle, and me",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87_pTzxP1lQP9kDXOnyix__CbaEuH11fif8lNj8QPOELdXJ05L5qS02q5UcoHEDaMs2Xd7-NizR-CciC0ZNLn62TVQddikZtKNpaYMV0HunuBCBoGAmeWBzm7ka_y6hdjn7W5huzHAcYxYd5IkdFTT6=w959-h719-s-no-gm?authuser=0"
+        },
+        "papajohns":{
+            "caption": "Papa Johns",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87SbKBs2-ChR7saSV2V91gVKCzfoRfG04G6nv9qMblVbpFuYLOzCPtDCGQ9bgIphpKiRUDIDDeWc0jirP-ByoEirzPBnnZpftTKSzBJKpBcFuzJQLn9KlM0lp6xts4sfiI-ua2e940HSB8DYbIdmIeM=w921-h868-s-no-gm?authuser=0"
+        },
+    
 
 
         "___":{
