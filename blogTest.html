@@ -96,7 +96,7 @@
 
                         //if type is text, put in a <p>
                         if(thisType === "te"){
-                            htmlString += "<p>" + thisMeat + "</p>";
+                            htmlString += "<p class='text'>" + thisMeat + "</p>";
                         }
 
                         //if type is an image
@@ -114,17 +114,18 @@
 
                         //if type is observation
                         else if(thisType === "ob"){
-                            let colon = text.indexOf(":");
+                            let colon = thisMeat.indexOf(": ");
                             //HI: fish!
                             obHeading = thisMeat.substr(0, colon);
                             obText = thisMeat.substr(colon+2,undefined);
-                            htmlString += "<div class='observation'><h2 class='obHeading'>" + obHeading + "</h2><p class='obText'>" + obText + "</p></div>";
+                            htmlString += "<div class='observation'><h2 class='obHeading'>AN OBSERVATION: " + obHeading + "</h2><p class='obText'>" + obText + "</p></div>";
                         }
 
                         //if type is audio
                         else if(thisType === "au"){
-                            htmlString += "<div class='spotify'><iframe src='" + thisMeat + "' loading='lazy'></iframe></div>";
+                            htmlString += "<iframe class='spotify' src='" + thisMeat + "' loading='lazy'></iframe>";
                         }
+                        
                         
                     }
                     //close postBox and content
@@ -206,6 +207,21 @@
                     elements[i].style.fontSize = '30px';
                 }
 
+                //observation
+                elements = document.getElementsByClassName('obHeading');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '45px';
+                    elements[i].style.padding = '20px';
+
+                }
+                elements = document.getElementsByClassName('obText');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '35px';
+                    elements[i].style.padding = '20px';
+                }
+
 
                 //change button to setSmallFont
                 button.value = "SMALL text";
@@ -270,6 +286,21 @@
                 for (let i = 0; i < elements.length; i++) {
                     element = elements[i];
                     elements[i].style.fontSize = '';
+                }
+
+                //observation
+                elements = document.getElementsByClassName('obHeading');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '';
+                    elements[i].style.padding = '';
+
+                }
+                elements = document.getElementsByClassName('obText');
+                for (let i = 0; i < elements.length; i++) {
+                    element = elements[i];
+                    elements[i].style.fontSize = '';
+                    elements[i].style.padding = '';
                 }
 
                 //change button to setLargeFont

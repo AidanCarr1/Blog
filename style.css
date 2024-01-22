@@ -3,7 +3,7 @@ body{
     
     /*width*/
     width: 90vw;
-    max-width: 1200px;
+    max-width: 1000px;
     -min-width: 600px;
 
     /*center*/
@@ -102,10 +102,10 @@ body{
     padding-top: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
     /*space between posts */
-    margin-top: 25px;
+    margin-top: 45px;
     -margin-bottom: 15px;
 
     /* shadow */
@@ -129,24 +129,31 @@ body{
         -background-color: pink;
         font-size: 25px;
         margin-top: 0px; 
-        margin-bottom: 0px;
+        margin-bottom: 30px;
 
         transition: 0.9s;
     }
 
 /* My journal entry writing */
 .content{
-    -background-color: antiquewhite;
+    -background-color: pink;
     font-size: 18px;
-    margin-top: 0px; 
-    margin-bottom: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     transition: 1s;
 }
 
+.text{
+    -background-color: rosybrown;
+    -margin-top: 25px;
+    margin-bottom: 30px;
+}
 /* Image in journal entry */
     .imgBlob{
         -background-color: yellowgreen;
+        -margin-top: 15px;
+        margin-bottom: 30px;
     }
     img{
         -background-color: purple;
@@ -168,39 +175,76 @@ body{
         text-align: center;
 
         /*make caption close to img above */
-        margin-top: 5px;
+
         margin-bottom: 10px;
     }
 
 
 .observation{
     background-image: 
-    linear-gradient(to bottom, rgba(255, 218, 144, 1), rgba(255, 229, 178, 0.8)),
+    linear-gradient(to bottom, rgba(255, 218, 144, .9), rgba(255, 229, 178, 0.7)),
     url("https://i.etsystatic.com/21850294/r/il/a09e2d/3492306539/il_570xN.3492306539_4hic.jpg");
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    -position: relative;
 
     min-height: 150px;
     width: 80%;
 
-    text-align: center;
-    margin: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
 
     border-radius: 8px;
 
 }
 
 .obHeading{
+    text-align: center;
     font-size: 30px;
+
     background-color: antiquewhite;
     padding: 5px;
 
     border-radius: 8px 8px 0px 0px;
+    margin-bottom: 0px;
+
+    transition: .5s;
 }
 
 .obText{
     font-size: 20px;
+    padding: 15px;
+    margin-top: 0px;
+    -background-color: rgba(255, 166, 0, 0.342);
+
+    -position: absolute;
+    -top:0;
+
+    transition: .8s;
+}
+
+
+.spotify{
+    -border-radius: 12px;
+    border-width: 0px;
+    width:90%;
+
+    /*center*/
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 352px;
+    position: relative;
+    
+    font-size: 30px;
+    -background-color: antiquewhite;
+    padding: 0px;
+
+    margin-bottom: 30px;   
 }
