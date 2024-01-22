@@ -30,7 +30,7 @@
             "date": "January 9, 2024",
 
             "content": {
-                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!",
+                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building— their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!",
                 "image1": "myFirstGuinness",
                 "image2": "hunterBangers"
             }
@@ -71,7 +71,7 @@
                 "image9": "howthWalk",
                 "image10": "howthCliff",
                 "image11": "howthTown",
-                "text9": "For dinner we ate at the Brazen Head - Ireland's oldest pub (so they claim).",
+                "text9": "For dinner we ate at the Brazen Head— Ireland's oldest pub (so they claim).",
                 "image12": "brazenHeadFront",
                 "text10": "I had a bowl of Seafood Chowder (the best food I have eaten here so far, delicious), fish and chips (1000 years to perfect the recipe and it still wasnt that great), a Rockshore Cider (grand!), and an apple crumble with ice cream for dessert (yum).",
                 "image13": "bhSoup",
@@ -80,7 +80,7 @@
         },
 
         "5":{
-            "title": "A Weird Night on the Town",
+            "title": "Our Weird First Night Out",
             "date": "January 13, 2024",
 
             "content": {
@@ -90,10 +90,10 @@
                 
                 "image1": "brannigansSoup",
                 
-                "text4": "After another round of drinks and mostly full stomachs, we grabbed the bill and paid. He charged everyone but me for only one round, I made everyone split my drink price because I'm cheap.",
-                "text5": "On to the fun part of the night. Waking out to the street, we went north up O'Connell to find a bar with live music. Not too far away was Fibber Magees, described as a live rock bar we decided to check out. Once inside, we ordered another round of pints and met with some CEA CAPA guys Kyle and Nicholas.",
-                "text6": "We sat in a booth while a live rock band played in the other room. The music was bumping but the crowd looked pretty bored, not enough movement for me to jump in there. I went to the bathroom and was guilted into tipping a man 1 euro— he held the soap for me okay?",
-                "text7": "As I got out of the bathroom, I was told by Chrsitina and Ashley that they were approached by a man who told them they should go downstairs to the basement or 'the dungeon.' Intrigued, we obviously went downstairs to find the most amazing spot ever. About thirty people were dancing in a small room with its own bar. The DJ was a 50 year old man on a 2008 laptop, playing from an auto DJ application. The music video to each respective song playing on a projection right below him on stage.",
+                "text4": "After a second round of drinks and mostly full stomachs, we grabbed the bill and paid. He charged everyone for only one round, except me. So I made everyone split my second drink price because I'm cheap.",
+                "text5": "On to the fun part of the night. Walking out to the street, we went north up O'Connell to find a bar with live music. Not too far away was Fibber Magees. Described as a live rock bar, we decided to check out. Once inside, we ordered another round of pints and met with some CEA CAPA guys: Kyle and Nicholas.",
+                "text6": "We sat in a booth while a live rock band played in the other room. The music was bumping but the crowd looked pretty bored, not enough movement for me to jump in there. I went to the bathroom and was guilted into tipping a man one euro— he held the soap for me okay?",
+                "text7": "As I got out of the bathroom, I was told by Christina and Ashley that they were approached by a man who told them they should go downstairs to the basement or \"the dungeon.\" Intrigued, we obviously went downstairs to find the most amazing spot ever. About thirty people were dancing in a small room with its own bar. The 50 year old DJ queued songs on his 2008 laptop, playing from an automatic DJ program. The music video to each respective song playing on a projection right below him on stage.",
                 
                 "image2": "fibberDJ",
 
@@ -104,10 +104,10 @@
                 "audio3": "https://open.spotify.com/embed/track/7FwBtcecmlpc1sLySPXeGE?utm_source=generator",
                 "audio4": "https://open.spotify.com/embed/track/2F4FNcz68howQWD4zaGJSi?utm_source=generator",
 
-                "text9": "The theme for the night was 80s, hence the music… also hence the demographic down in the dungeon. We were surrounded by 30, 40, and 50 year olds. We were the youngest group of people by ten years.",
+                "text9": "The theme for the night was 80s, hence the music… also hence the demographic down in the dungeon. We were surrounded by 30, 40, and 50 year olds. We were the youngest group of people by a good ten years.",
                 "text10": "The final song:",
                 "audio5": "https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator",
-                "text11": "We stayed until almost 2am when we grabbed a taxi back home."
+                "text11": "We stayed until almost 2am when we grabbed a taxi back to campus."
 
             }
         }

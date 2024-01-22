@@ -30,7 +30,7 @@
             "date": "January 9, 2024",
 
             "content": {
-                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!",
+                "text1": "I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building— their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!",
                 "image1": "myFirstGuinness",
                 "image2": "hunterBangers"
             }
@@ -53,7 +53,7 @@
 
             "content": {
                 "text1": "We woke up early to catch a bus around 8:20. We figured out how to pay by talking to the driver who was very little help, throwing our €2.70 worth of coins in the little box.",
-                "text2": "45 minutes later we arrived at Griffith College, the home of our study abroad company CEA CAPA. We were greeted by Anne where we met Megan, another student from DCU through the CEA CAPA program, who coincidentally took the same bus as us.",
+                "text2": "45 minutes later we arrived at Griffith College, the home of our study abroad company CEA CAPA. We were greeted by Anne where we met Meghan, another student from DCU through the CEA CAPA program, who coincidentally took the same bus as us.",
                 "text3": "After a quick introduction to the team and our fellow classmates, Anne took us to another room where we told her all our issues with choosing classes at DCU. The summary of all our issues will come in a later post, it will be a long one.",
                 "text4": "We hopped on the bus at 2pm and took off with the other 30 CEA CAPA Griffith College students.",
                 "image1": "busViewChurch",
@@ -71,13 +71,47 @@
                 "image9": "howthWalk",
                 "image10": "howthCliff",
                 "image11": "howthTown",
-                "text9": "For dinner we ate at the Brazen Head - Ireland's oldest pub (so they claim).",
+                "text9": "For dinner we ate at the Brazen Head— Ireland's oldest pub (so they claim).",
                 "image12": "brazenHeadFront",
                 "text10": "I had a bowl of Seafood Chowder (the best food I have eaten here so far, delicious), fish and chips (1000 years to perfect the recipe and it still wasnt that great), a Rockshore Cider (grand!), and an apple crumble with ice cream for dessert (yum).",
                 "image13": "bhSoup",
                 "image14": "firstRockshore"
             }
+        },
+
+        "5":{
+            "title": "Our Weird First Night Out",
+            "date": "January 13, 2024",
+
+            "content": {
+                "text1": "We started the night by taking a bus into the city. We got off at O'Connell Street, a main road in the northside of Dublin, on the lookout for a restaurant. After a quick loop around the block, we found Brannigans.",
+                "text2": "Taking our own seats, we were greeted for drinks and all placed our orders. Another group sitting at a much nicer table left and a worker offered us to switch tables which we obviously accepted.",
+                "text3": "I ordered yet another seafood chowder and then a chicken sandwich and chips for my entree. This crock of chowder was delicious, and well worth the €10.",
+                
+                "image1": "brannigansSoup",
+                
+                "text4": "After a second round of drinks and mostly full stomachs, we grabbed the bill and paid. He charged everyone for only one round, except me. So I made everyone split my second drink price because I'm cheap.",
+                "text5": "On to the fun part of the night. Walking out to the street, we went north up O'Connell to find a bar with live music. Not too far away was Fibber Magees. Described as a live rock bar, we decided to check out. Once inside, we ordered another round of pints and met with some CEA CAPA guys: Kyle and Nicholas.",
+                "text6": "We sat in a booth while a live rock band played in the other room. The music was bumping but the crowd looked pretty bored, not enough movement for me to jump in there. I went to the bathroom and was guilted into tipping a man one euro— he held the soap for me okay?",
+                "text7": "As I got out of the bathroom, I was told by Christina and Ashley that they were approached by a man who told them they should go downstairs to the basement or \"the dungeon.\" Intrigued, we obviously went downstairs to find the most amazing spot ever. About thirty people were dancing in a small room with its own bar. The 50 year old DJ queued songs on his 2008 laptop, playing from an automatic DJ program. The music video to each respective song playing on a projection right below him on stage.",
+                
+                "image2": "fibberDJ",
+
+                "text8": "A few songs that played:",
+                "comment": "walk like egyptian, girls wanna have fun, dancing in the dark, in the jungle",
+                "audio1": "https://open.spotify.com/embed/track/1Jwc3ODLQxtbnS8M9TflSP?utm_source=generator",
+                "audio2": "https://open.spotify.com/embed/track/4y1LsJpmMti1PfRQV9AWWe?utm_source=generator",
+                "audio3": "https://open.spotify.com/embed/track/7FwBtcecmlpc1sLySPXeGE?utm_source=generator",
+                "audio4": "https://open.spotify.com/embed/track/2F4FNcz68howQWD4zaGJSi?utm_source=generator",
+
+                "text9": "The theme for the night was 80s, hence the music… also hence the demographic down in the dungeon. We were surrounded by 30, 40, and 50 year olds. We were the youngest group of people by a good ten years.",
+                "text10": "The final song:",
+                "audio5": "https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator",
+                "text11": "We stayed until almost 2am when we grabbed a taxi back to campus."
+
+            }
         }
+
     },
 
     "images":{
@@ -248,6 +282,11 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87Ys3YUoBd8fG8CyKHzuoMyEVycM5gg7cjNoNEumMl310fE9qnndmx8RBnLUi0Ua3BMgf_LTt-tiLE7yQy8VKFBYucbg1P5dHIML0iHvQnG5J7x2hDkGEd7_d1xC7HXQt1atvoPlEmIZ4u8gFrg5ut9=w651-h868-s-no-gm?authuser=0"
         },
         
+        "fibberDJ":{
+            "caption": "World famous Fibber Magees DJ",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87qyyNPyNkPsEn47rUdhp9pFQmYQS7LofUDUuGU6WHoG0LcpqR1UVQlfUqtudMDnsWu6oR4z7NMrmeeSTb8nUVIL5tHAeeMCOzNKGs26cU63rvQUNp3qxrzsy7awctxSP2thAIHK0z2p3JdeENECGF0=w651-h868-s-no-gm?authuser=0"
+        },
+
         "firstRun1":{
             "caption": "My first run in Dublin, the weather was nice",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86A7tiBE9U7n2JHk1MwJGu26rUejR6r-KVd6EAbg5efBq27DFCXlRc6s16meNGVa9l4k81Kq74yEW9lT_0yDwHCDav0wGH2RRWkiYEhuKSaWlnzobZU0P377u0naRlKArJv7BYgUcuu5vCzDdeqBdCV=w651-h868-s-no-gm?authuser=0"
@@ -269,7 +308,7 @@
         },
         
         "spcLibrary":{
-            "caption": "Inside the Cregan Library at St. Patrick's campus",
+            "caption": "The Cregan Library at St. Patrick's campus",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV871juv_7k-8NEQiimLoKy-XRU6FxhfasMPVwGRA8g-fewQY4c8yN-AJ3Y6O_L5zFM1V6qALJb5V5OWXskAiLjFoSUThQSYhBKk0V0JuUtRbQX9dU_qq7v8cmNAdSy8KFjLMCfpo8_bb4poVGj9w8YfY=w959-h719-s-no-gm?authuser=0"
         },
         
@@ -278,7 +317,68 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84c1yxNMxIq39ZarONd6ygOwhvdmP5tBDI2I5RI4_IQ6jY_LxIFJQItq2NqdJOqcprZEw6c7E7seZA_zMbxwNCwxIdwakuPN52WodO3mSXThAmZg_KiIAJnEpVQJwEu-chOfBnBwbGeaRCEComcD6mm=w651-h868-s-no-gm?authuser=0"
         },
         
-        
+        "huntersChicken":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87K7A6jfxfMS-1PMjDk7Ox40H0RO1FfLrwDRLG5he1esngfcPGHRJd0zCgajDYehf1z7XhhRuOQL55gEt4wU9FsrcOVUAJrRAAgVnZ2feayN5zxhp60Y-pPOQEMqz5pbyIfkWNlWF8uDGCdZ1nYyZlN=w959-h863-s-no-gm?authuser=0"
+        },
+
+        "Ubathroom":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV8461wL6gy94tsH4Jk57_El8cP3ro6TaNt7m4kI2efKdwCHNTqgHpb1cQ7sOEPcrVHQpQ-cADMll3_juqzNd9UOLuxkp2Bd74VXkWpaWIPEAlVQf_77pIvA_mkhIWlq2NHHklXI-SNPmwCYj8-kFlIYo=w816-h868-s-no-gm?authuser=0"
+        },
+        "homework1":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85BhIVyrmdm6fjYYPuP6YbF0VlVJys3q6hdc5E_D1ip8V_-AwRexS3M6G_WVL0G2kSmSCTIV4yOtScRtvw1OSCgVqLO2FR4uxa3Kh5LpAwOz6B0K9TZMXuJkrExMEFCdDOS96Y-PbKAQ025xdbAijru=w651-h868-s-no-gm?authuser=0"
+        },
+        "libraryWindow":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84atQtJ06CtAJieXKCQOSAdnwbN_JDNLsD5vEtQPbB0T4YW7nGjMLQm__2e77q_Xdycj0qSjBmYswW8DemS-7NFyT3Dg8xov38niRFH5NyBNROs4cFJF_OwwORct1kL1-mFWo4vF6LPUHkeyyFc3Rpw=w811-h868-s-no-gm?authuser=0"
+        },
+        "theMall":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84buwloMotIUwd-bLLSyGS35p0isVnle-w9CCu3hiifBnhWHv3fKcJElZEGcmjOYdbPDGbLKstoqYP2vIGQivJlvZ3ghbjI30tkSJxTKDWEVDRpV2_dZoJ1AqFwaocoYeurPLX74Rof_JSnJTIrFt-R=w651-h868-s-no-gm?authuser=0"
+        },
+        "graftonSt":{
+            "caption": "Grafton Street",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86c0lDRoMShGg5VUsagIpy9jWhR27R8C67UoihIWlGZbSVel8jsfee_y2FyImFjCXt_jFDjB-yys2klGmohz5nTwRX8NA2mHslkKLblitddzMC0XBN4KSRvBOTw-AKDhCldAuYWyWufmXHAkGy9QZ-J=w694-h868-s-no-gm?authuser=0"
+        },
+        "kopparberg":{
+            "caption": "Kopparberg cider",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84MSEN5kV1J-vHC7QIHzoijj3JxwAV_itZ9x9nLAWusCACckl3xPRR9Wx8AYt2JgoBHy2FS_4pGhahUmQsTCLX_DxBM_WZ3qbv_oPrM1d8Ccf7uhQmDNnneaEbxvCqus5rRsNvAGDAEvD0CNx3WlUre=w755-h868-s-no-gm?authuser=0"
+        },
+        "tourGuide":{
+            "caption": "Our Literary Walk guide",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85NqG0TbO4xVWnKqoyt1VpZpWJxXVnY-Chcj462MVgyU6bow5om5f7PV6fW5EGAOqEPOuLrcuY3NXGEeA0c6U2Uy2zuM6YZoSTdfxHyBoaOurI91J8hYNiPKoLC_28QB08g14-7R6xq28DGbSxdT9Om=w650-h868-s-no-gm?authuser=0"
+        },
+        "ONeillbathroom":{
+            "caption": "The urinals at O'Neills Pub",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87vTLmjMRaYiNUKhUD0q_UO5QURlJLC52qpxaQGeXWvw4vhiZMuzI4KGsbtgvAFqotS-loufh-2rpv3swAOz4IGD3BzrIQjzgdK0u0vGq8Z2b-T_o4_ME5KsDB3Z1dlR5aRZ6h9mcA5i8CUtor4lv_k=w651-h868-s-no-gm?authuser=0"
+        },
+        "hgCouch":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85XLBfbg7Y8kzByNSJkzFz552FN4M5lc6ikmN4IIL7-_FibTzYGYhJQabJOu35XaTJcuQwWlnUJJ52wbZkRq6LvNXUpY4bhdakP7pIpg4moB6KlDroqJkPikDFQmaT-qPbu5752a-EPDLKDt9wOrM-Y=w959-h719-s-no-gm?authuser=0"
+        },
+        "samBridge":{
+            "caption": "The Samuel Beckett Bridge, the River Liffey, and the Convention Centre at night",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84s-jT18RzyEvXqfgQtzjEjgUjmVl7twLP32yDQUyhU6dl3KjV1oR3_UTQirQEIOQFnOLVBDI4SeLJVrknvQ7RzTd1HDqEGPRXP-WiWAc1RdsyCSqEZYkpm-FDlNjvPhOxKCTfkqV514ES7Qxb6aXtl=w959-h719-s-no-gm?authuser=0"
+        },
+        "redLights":{
+            "caption": "______",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85AMqJvabau9_8uecuBJE5fFyO-Sa8QljWaoLBCifOcqPQrKUn3WTRxHxrwzzI2w3eSc-NKt_AeX2xq0rlQC4-vEFRTeE_m-0QBncTi5PanCdql6HNum3YGp3kY7vKJC_Ia9piCTOu_mnnaiWP03QP0=w959-h719-s-no-gm?authuser=0"
+        },
+        "halfRoast":{
+            "caption": "The half roast chicken and waffle fries from The Gasworks",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV84WVGLMowV4dBRkbVTDtFxJdxN1h1kqJRbwbW7cFBgJdSXdVizpOMrbz4eZO4BtJVp6_adfc46Oj4vxCQ0AT2dPg30fUv8f8i7lVsbCGbcSdsH4eSEBWGL2Aqf-7sUL8E3zoyZ_AEDGI_pc2QnkiU54=w959-h719-s-no-gm?authuser=0"
+        },
+        "gasworksGroup":{
+            "caption": "Ashley, Christina, Meghan, Nicholas, Sam, Hunter, Kyle, and me",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87_pTzxP1lQP9kDXOnyix__CbaEuH11fif8lNj8QPOELdXJ05L5qS02q5UcoHEDaMs2Xd7-NizR-CciC0ZNLn62TVQddikZtKNpaYMV0HunuBCBoGAmeWBzm7ka_y6hdjn7W5huzHAcYxYd5IkdFTT6=w959-h719-s-no-gm?authuser=0"
+        },
+        "papajohns":{
+            "caption": "Papa Johns",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87SbKBs2-ChR7saSV2V91gVKCzfoRfG04G6nv9qMblVbpFuYLOzCPtDCGQ9bgIphpKiRUDIDDeWc0jirP-ByoEirzPBnnZpftTKSzBJKpBcFuzJQLn9KlM0lp6xts4sfiI-ua2e940HSB8DYbIdmIeM=w921-h868-s-no-gm?authuser=0"
+        },
+    
 
 
         "___":{
