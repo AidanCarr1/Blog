@@ -80,16 +80,35 @@
         },
 
         "5":{
-            "title": "Testing Observation and Music",
-            "date": "January 22, 2024",
+            "title": "A Weird Night on the Town",
+            "date": "January 13, 2024",
 
             "content": {
-                "text1": "Hi there, I am testing an observation below.",
-                "observation1": "FOOD: No salt!",
-                "image1": "huntersChicken",
-                "text2": "And now, lets get some music goin!",
-                "audio1": "https://open.spotify.com/embed/track/1kuGVB7EU95pJObxwvfwKS?utm_source=generator",
-                "text3": "let's hope that worked!"
+                "text1": "We started the night by taking a bus into the city. We got off at O'Connell Street, a main road in the northside of Dublin, on the lookout for a restaurant. After a quick loop around the block, we found Brannigans.",
+                "text2": "Taking our own seats, we were greeted for drinks and all placed our orders. Another group sitting at a much nicer table left and a worker offered us to switch tables which we obviously accepted.",
+                "text3": "I ordered yet another seafood chowder and then a chicken sandwich and chips for my entree. This crock of chowder was delicious, and well worth the €10.",
+                
+                "image1": "brannigansSoup",
+                
+                "text4": "After another round of drinks and mostly full stomachs, we grabbed the bill and paid. He charged everyone but me for only one round, I made everyone split my drink price because I'm cheap.",
+                "text5": "On to the fun part of the night. Waking out to the street, we went north up O'Connell to find a bar with live music. Not too far away was Fibber Magees, described as a live rock bar we decided to check out. Once inside, we ordered another round of pints and met with some CEA CAPA guys Kyle and Nicholas.",
+                "text6": "We sat in a booth while a live rock band played in the other room. The music was bumping but the crowd looked pretty bored, not enough movement for me to jump in there. I went to the bathroom and was guilted into tipping a man 1 euro— he held the soap for me okay?",
+                "text7": "As I got out of the bathroom, I was told by Chrsitina and Ashley that they were approached by a man who told them they should go downstairs to the basement or 'the dungeon.' Intrigued, we obviously went downstairs to find the most amazing spot ever. About thirty people were dancing in a small room with its own bar. The DJ was a 50 year old man on a 2008 laptop, playing from an auto DJ application. The music video to each respective song playing on a projection right below him on stage.",
+                
+                "image2": "fibberDJ",
+
+                "text8": "A few songs that played:",
+                "comment": "walk like egyptian, girls wanna have fun, dancing in the dark, in the jungle",
+                "audio1": "https://open.spotify.com/embed/track/1Jwc3ODLQxtbnS8M9TflSP?utm_source=generator",
+                "audio2": "https://open.spotify.com/embed/track/4y1LsJpmMti1PfRQV9AWWe?utm_source=generator",
+                "audio3": "https://open.spotify.com/embed/track/7FwBtcecmlpc1sLySPXeGE?utm_source=generator",
+                "audio4": "https://open.spotify.com/embed/track/2F4FNcz68howQWD4zaGJSi?utm_source=generator",
+
+                "text9": "The theme for the night was 80s, hence the music… also hence the demographic down in the dungeon. We were surrounded by 30, 40, and 50 year olds. We were the youngest group of people by ten years.",
+                "text10": "The final song:",
+                "audio5": "https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator",
+                "text11": "We stayed until almost 2am when we grabbed a taxi back home."
+
             }
         }
 
@@ -263,6 +282,11 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87Ys3YUoBd8fG8CyKHzuoMyEVycM5gg7cjNoNEumMl310fE9qnndmx8RBnLUi0Ua3BMgf_LTt-tiLE7yQy8VKFBYucbg1P5dHIML0iHvQnG5J7x2hDkGEd7_d1xC7HXQt1atvoPlEmIZ4u8gFrg5ut9=w651-h868-s-no-gm?authuser=0"
         },
         
+        "fibberDJ":{
+            "caption": "World famous Fibber Magees DJ",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87qyyNPyNkPsEn47rUdhp9pFQmYQS7LofUDUuGU6WHoG0LcpqR1UVQlfUqtudMDnsWu6oR4z7NMrmeeSTb8nUVIL5tHAeeMCOzNKGs26cU63rvQUNp3qxrzsy7awctxSP2thAIHK0z2p3JdeENECGF0=w651-h868-s-no-gm?authuser=0"
+        },
+
         "firstRun1":{
             "caption": "My first run in Dublin, the weather was nice",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV86A7tiBE9U7n2JHk1MwJGu26rUejR6r-KVd6EAbg5efBq27DFCXlRc6s16meNGVa9l4k81Kq74yEW9lT_0yDwHCDav0wGH2RRWkiYEhuKSaWlnzobZU0P377u0naRlKArJv7BYgUcuu5vCzDdeqBdCV=w651-h868-s-no-gm?authuser=0"
