@@ -8,7 +8,7 @@
 
     <!-- <body onload="loadPosts();" -->
     <!-- <body onload="loadTestPost();" -->
-    <body onload="loadPosts();">
+    <body onload="loadTestPost();">
 
         <div id="header">
             <h1 id="siteID">Aidan's Dublin Blog (TEST)</h1>
@@ -20,6 +20,7 @@
             </div>
         </div>
         
+        <dialog id="fullScreen"></dialog>
 
         <div id="feed">
             <p>Blog posts should appear here.</p>
@@ -36,7 +37,7 @@
 
 
     <script>
-                
+        
         function loadPosts(){
             htmlString = "";
 
@@ -341,12 +342,23 @@
             }
         }
 
+        function fullScreenImage(url){
+            //alert(url);
+            //get fullscreen ID
+            element = document.getElementById('fullScreen');
+            element.style.backgroundImage = "url('" + url+"')";
+            element.showModal();
+            //element.style.display = "block";
+            //alert("done");
+        }
 
         function loadTestPost(){
             
             /* Test Blog Post info */
             var thisTitle = "Test Post";
             var thisDate = "January 18, 2023";
+            var thisImgURL = "https://lh3.googleusercontent.com/pw/ABLVV84QIwZk7OaCUEeWWOPLAVQzBDJZ5dgs1vEnS46QhIc17JuyR25a9UWf1h4caSEdQAb0XcOhq_T59Gfy08kBbxT1fa2jFJSCVU7u01AjGkrxYziEpG8=w2400";
+            var thisCaption = "try clicking this picutre";
             var thisText1 = "Hi. This is a paragraph. I slept for 14 hours. We checked out the campus restaurant, picked up our IDs, and visited the U building - their student center. At night, we went to the campus bar, NuBar, where I had a chicken sandwich with cheese and bacon. I also had my first pint of Guinness!";
             var thisAudio1 ="https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator";
 
@@ -363,6 +375,14 @@
                     
             //content
             htmlString += "<div class='content'><p>" + thisText1 + "</p></div>";
+
+            //img blob  
+            //display the image 
+            htmlString += "<div class='imgBlob'> <img class='clickableImg' onclick='fullScreenImage(\""+ thisImgURL+"\")' src= '" + thisImgURL + "' alt= '" + thisCaption + "'>";
+
+            //write caption
+            htmlString += "<p class='caption'>" + thisCaption + "</p></div>";
+
 
             //cultural observation
             htmlString += "<div class='observation'><h2 class='obHeading'>DUBLIN OBSERVATION</h2><p class='obText'>" + culturalObservation + "</p></div>";
