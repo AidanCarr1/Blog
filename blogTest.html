@@ -8,7 +8,7 @@
 
     <!-- <body onload="loadPosts();" -->
     <!-- <body onload="loadTestPost();" -->
-    <body onload="loadTestPost();">
+    <body onload="loadPosts();">
 
         <div id="header">
             <h1 id="siteID">Aidan's Dublin Blog (TEST)</h1>
@@ -94,7 +94,7 @@
                         //determine type
                         thisType = thisThing.substring(0,2);
 
-                        //if type is content, put in a <p>
+                        //if type is text, put in a <p>
                         if(thisType === "te"){
                             htmlString += "<p>" + thisMeat + "</p>";
                         }
@@ -110,6 +110,20 @@
 
                             //write caption
                             htmlString += "<p class='caption'>" + thisCaption + "</p></div>";
+                        }
+
+                        //if type is observation
+                        else if(thisType === "ob"){
+                            let colon = text.indexOf(":");
+                            //HI: fish!
+                            obHeading = thisMeat.substr(0, colon);
+                            obText = thisMeat.substr(colon+2,undefined);
+                            htmlString += "<div class='observation'><h2 class='obHeading'>" + obHeading + "</h2><p class='obText'>" + obText + "</p></div>";
+                        }
+
+                        //if type is audio
+                        else if(thisType === "au"){
+                            htmlString += "<div class='spotify'><iframe src='" + thisMeat + "' loading='lazy'></iframe></div>";
                         }
                         
                     }
