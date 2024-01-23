@@ -167,6 +167,8 @@ body{
         max-width: 100%;
         height: auto;
 
+        margin-bottom: 0px;
+
         transition: 2s;
     }
     .caption{
@@ -176,7 +178,9 @@ body{
 
         /*make caption close to img above */
 
-        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-top: 0px;
+        -margin-bottom: 10px;
     }
 
 
