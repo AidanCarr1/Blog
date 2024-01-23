@@ -402,7 +402,15 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87SbKBs2-ChR7saSV2V91gVKCzfoRfG04G6nv9qMblVbpFuYLOzCPtDCGQ9bgIphpKiRUDIDDeWc0jirP-ByoEirzPBnnZpftTKSzBJKpBcFuzJQLn9KlM0lp6xts4sfiI-ua2e940HSB8DYbIdmIeM=w921-h868-s-no-gm?authuser=0"
         },
     
+        "japan":{
+            "caption": "Izumi Japanese Restaurant",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV853SsjMVea7aVoutnm8bZeYKEXieDcLmbRkZEX-zbryV_oTQp-HdfRNEhb3krPpdSNdvqo_g5geIWXlv8cILBZHqiV0sAlM3-rHoj_hpv5UloclutuhQik6SFXnUUuTd0UdiRaF0n4fQ9nyhDzrfV8P=w959-h719-s-no-gm?authuser=0"
+        },
 
+        "leapCard":{
+            "caption": "My new Leap card",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85005E0MK8kncdc2OKz4gwNBkzD3WEwiZ1469Vfi9iholEQPtZi3q56XCDmrf_7KV51jaE4PoLfirhH4uA4d_WCAchkIQSlxeRpNU2RtdqMUub7OYcRT65gQtA1Cl0JaYKqK65JL0yx7MB-nPH77s8S=w959-h611-s-no-gm?authuser=0"
+        },
 
         "___":{
             "caption": "______",
