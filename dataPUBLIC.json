@@ -73,7 +73,7 @@
                 "image11": "howthTown",
                 "text9": "For dinner we ate at the Brazen Head— Ireland's oldest pub (so they claim).",
                 "image12": "brazenHeadFront",
-                "text10": "I had a bowl of Seafood Chowder (the best food I have eaten here so far, delicious), fish and chips (1000 years to perfect the recipe and it still wasnt that great), a Rockshore Cider (grand!), and an apple crumble with ice cream for dessert (yum).",
+                "text10": "I had a bowl of Seafood Chowder (the best food I have eaten here so far, delicious), fish and chips (1000 years to perfect the recipe and it still wasn't that great), a Rockshore Cider (grand!), and an apple crumble with ice cream for dessert (yum).",
                 "image13": "bhSoup",
                 "image14": "firstRockshore"
             }
@@ -108,6 +108,20 @@
                 "text10": "The final song:",
                 "audio5": "https://open.spotify.com/embed/track/7bJSbd2Upa4iYVHlbRKEJm?utm_source=generator",
                 "text11": "We stayed until almost 2am when we grabbed a taxi back to campus."
+
+            }
+        },
+
+        "6":{
+            "title": "My First Run",
+            "date": "January 14, 2024",
+
+            "content": {
+                "text1": "In the morning I went for a run. I checked out DCU's neighbor, Albert College Park and ran around the block.",
+                "image1": "firstRun1",
+                "imag32": "firstRun2",
+                "image3": "firstRunStats",
+                "observation": "LEFT VS. RIGHT: In Dublin, they drive on the right. But no one knows which side to walk on. Some days it's the left side, some days it's the right. People like to walk directly to their target, only moving at the last possible second for you. \nAlso, the revolving door still turns to the right. Drop the act guys."
 
             }
         }
@@ -281,7 +295,7 @@
             "caption": "A seafood chower crock at Brannigans",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87Ys3YUoBd8fG8CyKHzuoMyEVycM5gg7cjNoNEumMl310fE9qnndmx8RBnLUi0Ua3BMgf_LTt-tiLE7yQy8VKFBYucbg1P5dHIML0iHvQnG5J7x2hDkGEd7_d1xC7HXQt1atvoPlEmIZ4u8gFrg5ut9=w651-h868-s-no-gm?authuser=0"
         },
-        
+
         "fibberChristina":{
             "caption": "Christina falling for the DJ",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87qyyNPyNkPsEn47rUdhp9pFQmYQS7LofUDUuGU6WHoG0LcpqR1UVQlfUqtudMDnsWu6oR4z7NMrmeeSTb8nUVIL5tHAeeMCOzNKGs26cU63rvQUNp3qxrzsy7awctxSP2thAIHK0z2p3JdeENECGF0=w651-h868-s-no-gm?authuser=0"
@@ -299,6 +313,11 @@
         "firstRun2":{
             "caption": "Views from my run",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85y8q3XoeFQhNLjyQOb95VP5R4GK4rIupcj_I3U9GxhX_oRwjRXXCed4P28ZRKQQz8-0LvwYWruLOGTMAzyRnNkiaui_tqxZM_ex3OocfyWRFvFC0FWZvExlWkxGe5_fJWVoaqbS_AMAfbauHFt3kMV=w651-h868-s-no-gm?authuser=0"
+        },
+
+        "firstRunStats":{
+            "caption": "3.46 miles in 36:57 (it was very leisurely)",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85c_1QH1Qr1yqBP-dysOXft0DeqYmBiuXJRJrMat_YgNoVATUYbq8UG2vzgrohACAWP303sMHlcTTKlbNnJFmHWg6JNzfbc_ZlL-7xDgWF1cTsBrNKsisALsivg-d7LPBboIGdssZ-wJgMyOiHY37gH=w959-h606-s-no-gm?authuser=0"
         },
         
         "abraBurger":{
@@ -383,7 +402,15 @@
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV87SbKBs2-ChR7saSV2V91gVKCzfoRfG04G6nv9qMblVbpFuYLOzCPtDCGQ9bgIphpKiRUDIDDeWc0jirP-ByoEirzPBnnZpftTKSzBJKpBcFuzJQLn9KlM0lp6xts4sfiI-ua2e940HSB8DYbIdmIeM=w921-h868-s-no-gm?authuser=0"
         },
     
+        "japan":{
+            "caption": "Izumi Japanese Restaurant",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV853SsjMVea7aVoutnm8bZeYKEXieDcLmbRkZEX-zbryV_oTQp-HdfRNEhb3krPpdSNdvqo_g5geIWXlv8cILBZHqiV0sAlM3-rHoj_hpv5UloclutuhQik6SFXnUUuTd0UdiRaF0n4fQ9nyhDzrfV8P=w959-h719-s-no-gm?authuser=0"
+        },
 
+        "leapCard":{
+            "caption": "My new Leap card",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85005E0MK8kncdc2OKz4gwNBkzD3WEwiZ1469Vfi9iholEQPtZi3q56XCDmrf_7KV51jaE4PoLfirhH4uA4d_WCAchkIQSlxeRpNU2RtdqMUub7OYcRT65gQtA1Cl0JaYKqK65JL0yx7MB-nPH77s8S=w959-h611-s-no-gm?authuser=0"
+        },
 
         "___":{
             "caption": "______",
