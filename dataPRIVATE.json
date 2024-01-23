@@ -110,6 +110,20 @@
                 "text11": "We stayed until almost 2am when we grabbed a taxi back to campus."
 
             }
+        },
+
+        "6":{
+            "title": "My First Run",
+            "date": "January 14, 2024",
+
+            "content": {
+                "text1": "In the morning I went for a run. I checked out the nearby park and ran around the block.",
+                "image1": "firstRun1",
+                "imag32": "firstRun2",
+                "image3": "firstRunStats",
+                "observation": "LEFT VS. RIGHT: In Dublin, they drive on the right. But no one knows which side to walk on. Some days it's the left side, some days it's the right. People like to walk directly to their target, only moving at the last possible second for you. \nAlso, the revolving door still turns to the right. Drop the act guys."
+
+            }
         }
 
     },
@@ -299,6 +313,11 @@
         "firstRun2":{
             "caption": "Views from my run",
             "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85y8q3XoeFQhNLjyQOb95VP5R4GK4rIupcj_I3U9GxhX_oRwjRXXCed4P28ZRKQQz8-0LvwYWruLOGTMAzyRnNkiaui_tqxZM_ex3OocfyWRFvFC0FWZvExlWkxGe5_fJWVoaqbS_AMAfbauHFt3kMV=w651-h868-s-no-gm?authuser=0"
+        },
+
+        "firstRunStats":{
+            "caption": "3.46 miles in 36:57 (it was very leisurely)",
+            "imgURL": "https://lh3.googleusercontent.com/pw/ABLVV85c_1QH1Qr1yqBP-dysOXft0DeqYmBiuXJRJrMat_YgNoVATUYbq8UG2vzgrohACAWP303sMHlcTTKlbNnJFmHWg6JNzfbc_ZlL-7xDgWF1cTsBrNKsisALsivg-d7LPBboIGdssZ-wJgMyOiHY37gH=w959-h606-s-no-gm?authuser=0"
         },
         
         "abraBurger":{
